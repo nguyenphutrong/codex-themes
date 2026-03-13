@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { GalleryVerticalEnd, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import ThemeToggle from "#/components/ThemeToggle";
 import { COMMUNITY_REPO_URL } from "#/lib/site";

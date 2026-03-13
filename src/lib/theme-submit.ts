@@ -136,7 +136,6 @@ export function buildDraftThemeRecord(
 		tags: normalizeTags(values.tags),
 		featured: false,
 		createdAt: new Date().toISOString().slice(0, 10),
-		baseLikes: 0,
 		codexTheme: payload,
 	};
 }

@@ -30,7 +30,6 @@ export interface ThemeRecord {
 	tags: string[];
 	featured: boolean;
 	createdAt: string;
-	baseLikes: number;
 	codexTheme: CodexThemePayload;
 }
 

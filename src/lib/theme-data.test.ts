@@ -48,7 +48,6 @@ describe("theme data", () => {
 				description: "Broken",
 				featured: false,
 				createdAt: "2026-01-01",
-				baseLikes: 0,
 			}),
 		).toThrow(/slug is required/i);
 	});

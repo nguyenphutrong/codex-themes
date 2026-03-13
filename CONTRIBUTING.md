@@ -22,7 +22,6 @@ Each theme lives in `data/themes/<slug>.json` and uses this shape:
   "tags": ["neon", "floral", "night"],
   "featured": false,
   "createdAt": "2026-02-03",
-  "baseLikes": 0,
   "codexTheme": {
     "codeThemeId": "codex",
     "theme": {
@@ -68,6 +67,5 @@ Each theme lives in `data/themes/<slug>.json` and uses this shape:
 
 ## Notes for maintainers
 
-- `baseLikes` is seed popularity only. Real visitor likes are browser-local and not persisted server-side.
 - The `/submit` page is an export tool for contributors, not a publishing backend.
 - Keep this file aligned with the `/docs/contributing` route because the page renders this markdown directly.

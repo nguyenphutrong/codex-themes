@@ -195,7 +195,6 @@ export function parseThemeRecord(raw: unknown, source = "theme"): ThemeRecord {
 		}),
 		featured: assertBoolean(raw.featured, `${source}: featured is required`),
 		createdAt,
-		baseLikes: assertNumber(raw.baseLikes, `${source}: baseLikes is required`),
 		codexTheme: {
 			codeThemeId: assertString(
 				raw.codexTheme.codeThemeId,
