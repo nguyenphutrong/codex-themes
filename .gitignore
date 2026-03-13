@@ -13,3 +13,6 @@ __unconfig*
 todos.json
 
 src/routeTree.gen.ts
+
+# Local Netlify folder
+.netlify

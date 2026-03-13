@@ -66,7 +66,7 @@ describe("route smoke tests", () => {
 			/>,
 		);
 
-		expect(screen.getByText(/pick a theme and copy it/i)).toBeDefined();
+		expect(screen.getByText(/community themes for codex/i)).toBeDefined();
 		expect(screen.getByLabelText(/search themes/i)).toBeDefined();
 		expect(screen.getByText(visibleTheme.name)).toBeDefined();
 	});
