@@ -1,0 +1,35 @@
+{
+  "slug": "everforest-light-med",
+  "name": "Everforest Light Med",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A nature-tuned palette imported from the VS Code collection with balanced greens and warm neutrals.",
+  "tags": [
+    "vscode",
+    "popular",
+    "forest"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13T07:49:00.000Z",
+  "baseLikes": 59,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#3a94c5",
+      "contrast": 18,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#5c6a72",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#8da101",
+        "diffRemoved": "#f85552",
+        "skill": "#df69ba"
+      },
+      "surface": "#efebd4"
+    },
+    "variant": "light"
+  }
+}

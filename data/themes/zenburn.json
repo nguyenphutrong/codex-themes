@@ -1,0 +1,35 @@
+{
+  "slug": "zenburn",
+  "name": "Zenburn",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A soft, muted palette imported from the Windows Terminal collection for long low-fatigue sessions.",
+  "tags": [
+    "terminal",
+    "popular",
+    "muted"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13T07:16:00.000Z",
+  "baseLikes": 45,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#94bff3",
+      "contrast": 33,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#dcdccc",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#c3bf9f",
+        "diffRemoved": "#dca3a3",
+        "skill": "#ec93d3"
+      },
+      "surface": "#3f3f3f"
+    },
+    "variant": "dark"
+  }
+}

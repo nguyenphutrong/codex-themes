@@ -1,0 +1,35 @@
+{
+  "slug": "seti",
+  "name": "Seti",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A terminal-native palette imported from the VS Code collection with dependable classic contrast.",
+  "tags": [
+    "vscode",
+    "popular",
+    "terminal"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13T07:41:00.000Z",
+  "baseLikes": 51,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#43a5d5",
+      "contrast": 54,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#cacecd",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#8ec43d",
+        "diffRemoved": "#c22832",
+        "skill": "#8b57b5"
+      },
+      "surface": "#111213"
+    },
+    "variant": "dark"
+  }
+}

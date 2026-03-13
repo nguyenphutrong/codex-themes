@@ -1,0 +1,35 @@
+{
+  "slug": "solarized-light",
+  "name": "Solarized Light",
+  "author": "Ethan Schoonover",
+  "authorUrl": "https://ethanschoonover.com/solarized/",
+  "description": "Classic low-contrast amber and cyan tones translated into a calm light workspace.",
+  "tags": [
+    "light",
+    "classic",
+    "editorial"
+  ],
+  "featured": false,
+  "createdAt": "2026-02-12",
+  "baseLikes": 74,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#b58900",
+      "contrast": 48,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#586e75",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#859900",
+        "diffRemoved": "#dc322f",
+        "skill": "#6c71c4"
+      },
+      "surface": "#fdf6e3"
+    },
+    "variant": "light"
+  }
+}

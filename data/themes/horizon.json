@@ -1,0 +1,35 @@
+{
+  "slug": "horizon",
+  "name": "Horizon",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A softened evening palette imported from the collection for calm transitions between light and dark.",
+  "tags": [
+    "vscode",
+    "popular",
+    "dusk"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13T07:44:00.000Z",
+  "baseLikes": 54,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#3fc4de",
+      "contrast": 53,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#d5d8da",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#3fdaa4",
+        "diffRemoved": "#ec6a88",
+        "skill": "#f075b5"
+      },
+      "surface": "#1c1e26"
+    },
+    "variant": "dark"
+  }
+}

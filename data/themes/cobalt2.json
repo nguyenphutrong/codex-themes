@@ -1,0 +1,35 @@
+{
+  "slug": "cobalt2",
+  "name": "Cobalt2",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A neon-leaning palette imported from the collection with vivid accents and bright semantic cues.",
+  "tags": [
+    "vscode",
+    "popular",
+    "neon"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13T07:52:00.000Z",
+  "baseLikes": 62,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#5555ff",
+      "contrast": 71,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#ffffff",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#3bd01d",
+        "diffRemoved": "#f40e17",
+        "skill": "#ff55ff"
+      },
+      "surface": "#132738"
+    },
+    "variant": "dark"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "flexoki-light",
+  "name": "Flexoki Light",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A typeset-friendly palette imported from the Ghostty or VS Code collection for reading-heavy workflows.",
+  "tags": [
+    "ghostty",
+    "popular",
+    "editorial"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13T07:14:00.000Z",
+  "baseLikes": 45,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#4385be",
+      "contrast": 88,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#100f0f",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#879a39",
+        "diffRemoved": "#d14d41",
+        "skill": "#ce5d97"
+      },
+      "surface": "#fffcf0"
+    },
+    "variant": "light"
+  }
+}

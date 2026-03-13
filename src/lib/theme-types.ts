@@ -6,8 +6,8 @@ export interface CodexThemePayload {
 		accent: string;
 		contrast: number;
 		fonts: {
-			code: string;
-			ui: string;
+			code: string | null;
+			ui: string | null;
 		};
 		ink: string;
 		opaqueWindows: boolean;
@@ -49,8 +49,6 @@ export interface SubmitThemeFormValues {
 	variant: ThemeVariant;
 	accent: string;
 	contrast: string;
-	codeFont: string;
-	uiFont: string;
 	ink: string;
 	surface: string;
 	diffAdded: string;

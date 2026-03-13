@@ -4,7 +4,11 @@
   "author": "Folke Lemaitre",
   "authorUrl": "https://github.com/folke/tokyonight.nvim",
   "description": "A midnight city palette with lucid blues and crisp lavender contrast.",
-  "tags": ["neon", "city", "minimal"],
+  "tags": [
+    "neon",
+    "city",
+    "minimal"
+  ],
   "featured": true,
   "createdAt": "2025-12-18",
   "baseLikes": 94,
@@ -14,8 +18,8 @@
       "accent": "#7aa2f7",
       "contrast": 80,
       "fonts": {
-        "code": "Maple Mono NF",
-        "ui": "Maple Mono NF"
+        "code": null,
+        "ui": null
       },
       "ink": "#c0caf5",
       "opaqueWindows": true,

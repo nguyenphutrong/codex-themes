@@ -1,0 +1,35 @@
+{
+  "slug": "banana-blueberry",
+  "name": "Banana Blueberry",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A playful palette imported from the Windows Terminal collection with dessert-like accent colors.",
+  "tags": [
+    "terminal",
+    "popular",
+    "playful"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13T07:37:00.000Z",
+  "baseLikes": 47,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#91fff4",
+      "contrast": 51,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#cccccc",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#98c379",
+        "diffRemoved": "#fe9ea1",
+        "skill": "#da70d6"
+      },
+      "surface": "#191323"
+    },
+    "variant": "dark"
+  }
+}

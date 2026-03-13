@@ -1,0 +1,35 @@
+{
+  "slug": "front-end-delight",
+  "name": "Front End Delight",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A playful palette imported from the Windows Terminal collection with dessert-like accent colors.",
+  "tags": [
+    "terminal",
+    "popular",
+    "playful"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13T07:29:00.000Z",
+  "baseLikes": 45,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#3393ca",
+      "contrast": 33,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#adadad",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#74ec4c",
+        "diffRemoved": "#f74319",
+        "skill": "#e75e4f"
+      },
+      "surface": "#1b1c1d"
+    },
+    "variant": "dark"
+  }
+}

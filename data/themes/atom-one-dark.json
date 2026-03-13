@@ -1,0 +1,35 @@
+{
+  "slug": "atom-one-dark",
+  "name": "Atom One Dark",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A dependable all-purpose palette imported from the VS Code collection for everyday development.",
+  "tags": [
+    "vscode",
+    "popular",
+    "utility"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13T07:57:00.000Z",
+  "baseLikes": 67,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#61afef",
+      "contrast": 31,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#abb2bf",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#98c379",
+        "diffRemoved": "#e06c75",
+        "skill": "#c678dd"
+      },
+      "surface": "#21252b"
+    },
+    "variant": "dark"
+  }
+}

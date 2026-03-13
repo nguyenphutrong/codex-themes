@@ -1,0 +1,35 @@
+{
+  "slug": "iceberg-dark",
+  "name": "Iceberg Dark",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A cool blue-leaning palette imported from the Windows Terminal collection for clean, low-glare editing.",
+  "tags": [
+    "terminal",
+    "popular",
+    "cool"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13T07:25:00.000Z",
+  "baseLikes": 45,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#91acd1",
+      "contrast": 48,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#c6c8d1",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#c0ca8e",
+        "diffRemoved": "#e98989",
+        "skill": "#ada0d3"
+      },
+      "surface": "#161821"
+    },
+    "variant": "dark"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "kanagawa-lotus",
+  "name": "Kanagawa Lotus",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A Japanese-inspired palette ported from the Ghostty collection with refined ink and accent balance.",
+  "tags": [
+    "ghostty",
+    "popular",
+    "japanese"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13T07:12:00.000Z",
+  "baseLikes": 45,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#6693bf",
+      "contrast": 26,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#545464",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#6e915f",
+        "diffRemoved": "#d7474b",
+        "skill": "#624c83"
+      },
+      "surface": "#f2ecbc"
+    },
+    "variant": "light"
+  }
+}

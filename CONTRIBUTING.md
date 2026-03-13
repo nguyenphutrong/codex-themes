@@ -28,7 +28,7 @@ Each theme lives in `data/themes/<slug>.json` and uses this shape:
     "theme": {
       "accent": "#f38ba8",
       "contrast": 78,
-      "fonts": { "code": "Maple Mono NF", "ui": "Maple Mono NF" },
+      "fonts": { "code": null, "ui": null },
       "ink": "#f8e8f0",
       "opaqueWindows": true,
       "semanticColors": {

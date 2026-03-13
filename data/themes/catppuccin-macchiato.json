@@ -1,0 +1,35 @@
+{
+  "slug": "catppuccin-macchiato",
+  "name": "Catppuccin Macchiato",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A creamy pastel palette imported from the VS Code collection for softer but still readable contrast.",
+  "tags": [
+    "vscode",
+    "popular",
+    "pastel"
+  ],
+  "featured": true,
+  "createdAt": "2026-03-13T07:38:00.000Z",
+  "baseLikes": 48,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#78a1f6",
+      "contrast": 45,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#cad3f5",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#8ccf7f",
+        "diffRemoved": "#ec7486",
+        "skill": "#f2a9dd"
+      },
+      "surface": "#24273a"
+    },
+    "variant": "dark"
+  }
+}

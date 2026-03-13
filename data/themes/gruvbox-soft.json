@@ -4,7 +4,11 @@
   "author": "Community Remix",
   "authorUrl": "https://github.com/morhetz/gruvbox",
   "description": "A softened gruvbox variant with warm ochre accents and lower glare.",
-  "tags": ["retro", "warm", "terminal"],
+  "tags": [
+    "retro",
+    "warm",
+    "terminal"
+  ],
   "featured": false,
   "createdAt": "2026-01-14",
   "baseLikes": 67,
@@ -14,8 +18,8 @@
       "accent": "#d79921",
       "contrast": 68,
       "fonts": {
-        "code": "Maple Mono NF",
-        "ui": "Maple Mono NF"
+        "code": null,
+        "ui": null
       },
       "ink": "#ebdbb2",
       "opaqueWindows": true,

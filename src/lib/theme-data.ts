@@ -27,6 +27,14 @@ function assertString(value: unknown, message: string) {
 	return value;
 }
 
+function assertNullableString(value: unknown, message: string) {
+	assert(
+		value === null || (typeof value === "string" && value.trim().length > 0),
+		message,
+	);
+	return value;
+}
+
 function assertBoolean(value: unknown, message: string) {
 	assert(typeof value === "boolean", message);
 	return value;
@@ -164,13 +172,13 @@ export function parseThemeRecord(raw: unknown, source = "theme"): ThemeRecord {
 				accent,
 				contrast,
 				fonts: {
-					code: assertString(
+					code: assertNullableString(
 						raw.codexTheme.theme.fonts.code,
-						`${source}: fonts.code is required`,
+						`${source}: fonts.code must be null or a non-empty string`,
 					),
-					ui: assertString(
+					ui: assertNullableString(
 						raw.codexTheme.theme.fonts.ui,
-						`${source}: fonts.ui is required`,
+						`${source}: fonts.ui must be null or a non-empty string`,
 					),
 				},
 				ink,

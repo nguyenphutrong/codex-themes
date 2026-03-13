@@ -1,0 +1,35 @@
+{
+  "slug": "afterglow",
+  "name": "Afterglow",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A sharp high-contrast palette imported from the VS Code collection for immediate scanability.",
+  "tags": [
+    "vscode",
+    "popular",
+    "high-contrast"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13T08:00:00.000Z",
+  "baseLikes": 70,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#6c99bb",
+      "contrast": 47,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#d0d0d0",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#7e8e50",
+        "diffRemoved": "#ac4142",
+        "skill": "#9f4e85"
+      },
+      "surface": "#212121"
+    },
+    "variant": "dark"
+  }
+}

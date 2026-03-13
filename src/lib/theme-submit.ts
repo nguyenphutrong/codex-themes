@@ -15,8 +15,6 @@ export const DEFAULT_SUBMIT_VALUES: SubmitThemeFormValues = {
 	variant: "dark",
 	accent: "#7aa2f7",
 	contrast: "76",
-	codeFont: "Maple Mono NF",
-	uiFont: "Maple Mono NF",
 	ink: "#d9e1ff",
 	surface: "#171b29",
 	diffAdded: "#7ee787",
@@ -92,14 +90,6 @@ export function validateSubmitThemeForm(
 		}
 	}
 
-	if (!values.codeFont.trim()) {
-		fieldErrors.codeFont = "Choose a code font.";
-	}
-
-	if (!values.uiFont.trim()) {
-		fieldErrors.uiFont = "Choose a UI font.";
-	}
-
 	return {
 		fieldErrors,
 		isValid: !Object.keys(fieldErrors).length,
@@ -115,8 +105,8 @@ export function buildPayloadFromSubmitForm(
 			accent: values.accent.trim(),
 			contrast: Number(values.contrast),
 			fonts: {
-				code: values.codeFont.trim(),
-				ui: values.uiFont.trim(),
+				code: null,
+				ui: null,
 			},
 			ink: values.ink.trim(),
 			opaqueWindows: values.opaqueWindows,

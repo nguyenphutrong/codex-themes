@@ -1,0 +1,35 @@
+{
+  "slug": "kanso-pearl",
+  "name": "Kanso Pearl",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A quiet zen palette ported from the Ghostty collection with balanced neutrals and restrained color.",
+  "tags": [
+    "ghostty",
+    "popular",
+    "zen"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13T07:09:00.000Z",
+  "baseLikes": 45,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#6693bf",
+      "contrast": 62,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#22262d",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#6e915f",
+        "diffRemoved": "#d7474b",
+        "skill": "#624c83"
+      },
+      "surface": "#f2f1ef"
+    },
+    "variant": "light"
+  }
+}

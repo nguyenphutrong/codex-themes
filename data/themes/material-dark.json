@@ -1,0 +1,35 @@
+{
+  "slug": "material-dark",
+  "name": "Material Dark",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A dependable all-purpose palette imported from the VS Code collection for everyday development.",
+  "tags": [
+    "vscode",
+    "popular",
+    "utility"
+  ],
+  "featured": true,
+  "createdAt": "2026-03-13T07:43:00.000Z",
+  "baseLikes": 53,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#54a4f3",
+      "contrast": 57,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#e5e5e5",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#7aba3a",
+        "diffRemoved": "#e83b3f",
+        "skill": "#aa4dbc"
+      },
+      "surface": "#232322"
+    },
+    "variant": "dark"
+  }
+}

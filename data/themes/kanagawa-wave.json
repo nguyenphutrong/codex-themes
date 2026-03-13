@@ -1,0 +1,35 @@
+{
+  "slug": "kanagawa-wave",
+  "name": "Kanagawa Wave",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A Japanese-inspired palette ported from the Ghostty collection with refined ink and accent balance.",
+  "tags": [
+    "ghostty",
+    "popular",
+    "japanese"
+  ],
+  "featured": true,
+  "createdAt": "2026-03-13T07:11:00.000Z",
+  "baseLikes": 45,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#7fb4ca",
+      "contrast": 51,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#dcd7ba",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#98bb6c",
+        "diffRemoved": "#e82424",
+        "skill": "#938aa9"
+      },
+      "surface": "#1f1f28"
+    },
+    "variant": "dark"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "jellybeans",
+  "name": "Jellybeans",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A retro terminal palette imported from the collection with warm analog character.",
+  "tags": [
+    "terminal",
+    "popular",
+    "retro"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13T07:23:00.000Z",
+  "baseLikes": 45,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#b1d8f6",
+      "contrast": 65,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#dedede",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#bddeab",
+        "diffRemoved": "#ffa1a1",
+        "skill": "#fbdaff"
+      },
+      "surface": "#121212"
+    },
+    "variant": "dark"
+  }
+}

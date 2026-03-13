@@ -1,0 +1,35 @@
+{
+  "slug": "ayu-light",
+  "name": "Ayu Light",
+  "author": "teabyii",
+  "authorUrl": "https://github.com/ayu-theme/vscode-ayu",
+  "description": "Warm paper-like light tones with amber accents and crisp readable ink.",
+  "tags": [
+    "light",
+    "warm",
+    "popular"
+  ],
+  "featured": true,
+  "createdAt": "2026-02-09",
+  "baseLikes": 78,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#e6b450",
+      "contrast": 58,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#5c6166",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#6cbf43",
+        "diffRemoved": "#f07171",
+        "skill": "#a37acc"
+      },
+      "surface": "#fafafa"
+    },
+    "variant": "light"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "github-dark",
+  "name": "GitHub Dark",
+  "author": "GitHub",
+  "authorUrl": "https://github.com/primer/github-vscode-theme",
+  "description": "A neutral dark GitHub palette with restrained blues and dependable diff contrast.",
+  "tags": [
+    "dark",
+    "minimal",
+    "popular"
+  ],
+  "featured": false,
+  "createdAt": "2026-02-11",
+  "baseLikes": 83,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#2f81f7",
+      "contrast": 72,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#c9d1d9",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#3fb950",
+        "diffRemoved": "#f85149",
+        "skill": "#a371f7"
+      },
+      "surface": "#0d1117"
+    },
+    "variant": "dark"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "tokyo-night-day",
+  "name": "Tokyo Night Day",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A city-lit palette ported from the Ghostty collection for a crisp late-night workspace.",
+  "tags": [
+    "ghostty",
+    "popular",
+    "city"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13T07:04:00.000Z",
+  "baseLikes": 45,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#2e7de9",
+      "contrast": 18,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#3760bf",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#587539",
+        "diffRemoved": "#f52a65",
+        "skill": "#9854f1"
+      },
+      "surface": "#e1e2e7"
+    },
+    "variant": "light"
+  }
+}

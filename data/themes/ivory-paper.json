@@ -4,7 +4,11 @@
   "author": "Studio Ledger",
   "authorUrl": "https://github.com/",
   "description": "A bright editorial light theme with parchment surfaces and walnut ink.",
-  "tags": ["light", "paper", "editorial"],
+  "tags": [
+    "light",
+    "paper",
+    "editorial"
+  ],
   "featured": true,
   "createdAt": "2026-01-22",
   "baseLikes": 51,
@@ -14,8 +18,8 @@
       "accent": "#8c5e3c",
       "contrast": 64,
       "fonts": {
-        "code": "Maple Mono NF",
-        "ui": "Maple Mono NF"
+        "code": null,
+        "ui": null
       },
       "ink": "#2f2724",
       "opaqueWindows": true,

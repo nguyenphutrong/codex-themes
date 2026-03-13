@@ -1,0 +1,35 @@
+{
+  "slug": "alabaster",
+  "name": "Alabaster",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A paper-bright palette imported from the VS Code collection for clean daytime reading.",
+  "tags": [
+    "vscode",
+    "popular",
+    "paper"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13T07:59:00.000Z",
+  "baseLikes": 69,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#007acc",
+      "contrast": 93,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#000000",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#60cb00",
+        "diffRemoved": "#f05050",
+        "skill": "#e64ce6"
+      },
+      "surface": "#f7f7f7"
+    },
+    "variant": "light"
+  }
+}

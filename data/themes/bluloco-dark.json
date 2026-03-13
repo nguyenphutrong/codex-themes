@@ -1,0 +1,35 @@
+{
+  "slug": "bluloco-dark",
+  "name": "Bluloco Dark",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A neon-leaning palette imported from the collection with vivid accents and bright semantic cues.",
+  "tags": [
+    "vscode",
+    "popular",
+    "neon"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13T07:54:00.000Z",
+  "baseLikes": 64,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#10b1fe",
+      "contrast": 33,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#b9c0cb",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#3fc56b",
+        "diffRemoved": "#ff6480",
+        "skill": "#ff78f8"
+      },
+      "surface": "#282c34"
+    },
+    "variant": "dark"
+  }
+}

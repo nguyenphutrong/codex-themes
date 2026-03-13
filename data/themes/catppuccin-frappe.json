@@ -1,0 +1,35 @@
+{
+  "slug": "catppuccin-frappe",
+  "name": "Catppuccin Frappe",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A creamy pastel palette imported from the VS Code collection for softer but still readable contrast.",
+  "tags": [
+    "vscode",
+    "popular",
+    "pastel"
+  ],
+  "featured": true,
+  "createdAt": "2026-03-13T07:40:00.000Z",
+  "baseLikes": 50,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#7b9ef0",
+      "contrast": 35,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#c6d0f5",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#8ec772",
+        "diffRemoved": "#e67172",
+        "skill": "#f2a4db"
+      },
+      "surface": "#303446"
+    },
+    "variant": "dark"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "nightfox",
+  "name": "Nightfox",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A fox-family night palette imported from the VS Code collection with crisp blue-violet balance.",
+  "tags": [
+    "vscode",
+    "popular",
+    "night"
+  ],
+  "featured": true,
+  "createdAt": "2026-03-13T07:42:00.000Z",
+  "baseLikes": 52,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#86abdc",
+      "contrast": 45,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#cdcecf",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#8ebaa4",
+        "diffRemoved": "#d16983",
+        "skill": "#baa1e2"
+      },
+      "surface": "#192330"
+    },
+    "variant": "dark"
+  }
+}

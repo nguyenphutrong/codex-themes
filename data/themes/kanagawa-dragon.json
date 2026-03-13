@@ -1,0 +1,35 @@
+{
+  "slug": "kanagawa-dragon",
+  "name": "Kanagawa Dragon",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A Japanese-inspired palette ported from the Ghostty collection with refined ink and accent balance.",
+  "tags": [
+    "ghostty",
+    "popular",
+    "japanese"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13T07:13:00.000Z",
+  "baseLikes": 45,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#7fb4ca",
+      "contrast": 49,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#c5c9c5",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#87a987",
+        "diffRemoved": "#e46876",
+        "skill": "#938aa9"
+      },
+      "surface": "#181616"
+    },
+    "variant": "dark"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "duskfox",
+  "name": "Duskfox",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A softened evening palette imported from the collection for calm transitions between light and dark.",
+  "tags": [
+    "terminal",
+    "popular",
+    "dusk"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13T07:33:00.000Z",
+  "baseLikes": 45,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#65b1cd",
+      "contrast": 54,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#e0def4",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#b1d196",
+        "diffRemoved": "#f083a2",
+        "skill": "#ccb1ed"
+      },
+      "surface": "#232136"
+    },
+    "variant": "dark"
+  }
+}

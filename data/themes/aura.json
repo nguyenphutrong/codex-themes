@@ -1,0 +1,35 @@
+{
+  "slug": "aura",
+  "name": "Aura",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A creamy pastel palette imported from the VS Code collection for softer but still readable contrast.",
+  "tags": [
+    "vscode",
+    "popular",
+    "pastel"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13T07:55:00.000Z",
+  "baseLikes": 65,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#a277ff",
+      "contrast": 73,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#edecee",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#a277ff",
+        "diffRemoved": "#ffca85",
+        "skill": "#a277ff"
+      },
+      "surface": "#15141b"
+    },
+    "variant": "dark"
+  }
+}

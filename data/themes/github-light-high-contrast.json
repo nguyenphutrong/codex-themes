@@ -1,0 +1,35 @@
+{
+  "slug": "github-light-high-contrast",
+  "name": "GitHub Light High Contrast",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A restrained palette imported from the collection for developers who prefer minimal visual noise.",
+  "tags": [
+    "vscode",
+    "popular",
+    "minimal"
+  ],
+  "featured": true,
+  "createdAt": "2026-03-13T07:47:00.000Z",
+  "baseLikes": 57,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#1168e3",
+      "contrast": 90,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#0e1116",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#055d20",
+        "diffRemoved": "#86061d",
+        "skill": "#844ae7"
+      },
+      "surface": "#ffffff"
+    },
+    "variant": "light"
+  }
+}

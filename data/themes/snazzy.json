@@ -1,0 +1,35 @@
+{
+  "slug": "snazzy",
+  "name": "Snazzy",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A neon-leaning palette imported from the collection with vivid accents and bright semantic cues.",
+  "tags": [
+    "terminal",
+    "popular",
+    "neon"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13T07:20:00.000Z",
+  "baseLikes": 45,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#49baff",
+      "contrast": 64,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#ebece6",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#50fb7c",
+        "diffRemoved": "#fc4346",
+        "skill": "#fc4cb4"
+      },
+      "surface": "#1e1f29"
+    },
+    "variant": "dark"
+  }
+}

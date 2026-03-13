@@ -176,18 +176,6 @@ export function SubmitPage() {
 							<label htmlFor="opaqueWindows">Use opaque Codex windows</label>
 						</div>
 					</Field>
-					<Field label="Code font" error={validation.fieldErrors.codeFont}>
-						<Input
-							value={formValues.codeFont}
-							onChange={(e) => updateField("codeFont", e.target.value)}
-						/>
-					</Field>
-					<Field label="UI font" error={validation.fieldErrors.uiFont}>
-						<Input
-							value={formValues.uiFont}
-							onChange={(e) => updateField("uiFont", e.target.value)}
-						/>
-					</Field>
 				</div>
 			</section>
 

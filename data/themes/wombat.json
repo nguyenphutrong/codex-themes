@@ -1,0 +1,35 @@
+{
+  "slug": "wombat",
+  "name": "Wombat",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A retro terminal palette imported from the collection with warm analog character.",
+  "tags": [
+    "terminal",
+    "popular",
+    "retro"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13T07:17:00.000Z",
+  "baseLikes": 45,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#a5c7ff",
+      "contrast": 59,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#dedacf",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#ddf88f",
+        "diffRemoved": "#f58c80",
+        "skill": "#ddaaff"
+      },
+      "surface": "#171717"
+    },
+    "variant": "dark"
+  }
+}

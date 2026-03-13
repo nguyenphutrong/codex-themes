@@ -1,0 +1,35 @@
+{
+  "slug": "spacegray-eighties",
+  "name": "Spacegray Eighties",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A moody late-evening palette imported from the Windows Terminal collection with muted punch.",
+  "tags": [
+    "terminal",
+    "popular",
+    "moody"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13T07:19:00.000Z",
+  "baseLikes": 45,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#4d84d1",
+      "contrast": 36,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#bdbaae",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#93d493",
+        "diffRemoved": "#ff6973",
+        "skill": "#ff55ff"
+      },
+      "surface": "#222222"
+    },
+    "variant": "dark"
+  }
+}

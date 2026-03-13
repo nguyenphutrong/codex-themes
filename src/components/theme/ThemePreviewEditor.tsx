@@ -72,7 +72,7 @@ export function ThemePreviewEditor({
 						)}
 						style={{
 							color: previewTheme.ink,
-							fontFamily: previewTheme.fonts.code,
+							fontFamily: previewTheme.fonts.code ?? undefined,
 						}}
 					>
 						{/* biome-ignore lint/security/noDangerouslySetInnerHtml: highlight.js output is generated from a static local sample. */}

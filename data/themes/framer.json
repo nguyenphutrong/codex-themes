@@ -1,0 +1,35 @@
+{
+  "slug": "framer",
+  "name": "Framer",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A polished contemporary palette imported from the Windows Terminal collection with product-design energy.",
+  "tags": [
+    "terminal",
+    "popular",
+    "modern"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13T07:30:00.000Z",
+  "baseLikes": 45,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#33bbff",
+      "contrast": 16,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#777777",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#b6f292",
+        "diffRemoved": "#ff8888",
+        "skill": "#cebbff"
+      },
+      "surface": "#111111"
+    },
+    "variant": "dark"
+  }
+}

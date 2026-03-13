@@ -47,6 +47,7 @@ describe("submit theme form", () => {
 
 		expect(payload.codeThemeId).toBe("codex");
 		expect(payload.variant).toBe("light");
+		expect(payload.theme.fonts).toEqual({ code: null, ui: null });
 		expect(payload.theme.semanticColors.skill).toBe(
 			DEFAULT_SUBMIT_VALUES.skill,
 		);

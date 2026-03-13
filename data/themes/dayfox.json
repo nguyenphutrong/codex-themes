@@ -1,0 +1,35 @@
+{
+  "slug": "dayfox",
+  "name": "Dayfox",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A bright fox-family daytime palette imported from the Windows Terminal collection for sunny work hours.",
+  "tags": [
+    "terminal",
+    "popular",
+    "daylight"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13T07:35:00.000Z",
+  "baseLikes": 45,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#4863b6",
+      "contrast": 51,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#3d2b5a",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#577f63",
+        "diffRemoved": "#b3434e",
+        "skill": "#8452d5"
+      },
+      "surface": "#f6f2ee"
+    },
+    "variant": "light"
+  }
+}

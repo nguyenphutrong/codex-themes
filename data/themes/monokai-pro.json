@@ -1,0 +1,35 @@
+{
+  "slug": "monokai-pro",
+  "name": "Monokai Pro",
+  "author": "Monokai",
+  "authorUrl": "https://monokai.pro/vscode",
+  "description": "A high-energy ink-black palette with citrus highlights and punchy change colors.",
+  "tags": [
+    "dark",
+    "retro",
+    "popular"
+  ],
+  "featured": false,
+  "createdAt": "2026-02-08",
+  "baseLikes": 88,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#ffd866",
+      "contrast": 79,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#fcfcfa",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#a9dc76",
+        "diffRemoved": "#ff6188",
+        "skill": "#ab9df2"
+      },
+      "surface": "#2d2a2e"
+    },
+    "variant": "dark"
+  }
+}

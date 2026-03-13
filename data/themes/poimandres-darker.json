@@ -1,0 +1,35 @@
+{
+  "slug": "poimandres-darker",
+  "name": "Poimandres Darker",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A neon-leaning palette imported from the collection with vivid accents and bright semantic cues.",
+  "tags": [
+    "terminal",
+    "popular",
+    "neon"
+  ],
+  "featured": true,
+  "createdAt": "2026-03-13T07:21:00.000Z",
+  "baseLikes": 45,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#add7ff",
+      "contrast": 35,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#a6accd",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#5de4c7",
+        "diffRemoved": "#d0679d",
+        "skill": "#fae4fc"
+      },
+      "surface": "#16161e"
+    },
+    "variant": "dark"
+  }
+}

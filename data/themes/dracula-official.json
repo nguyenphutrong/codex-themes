@@ -1,0 +1,35 @@
+{
+  "slug": "dracula-official",
+  "name": "Dracula Official",
+  "author": "Dracula Theme",
+  "authorUrl": "https://draculatheme.com/visual-studio-code",
+  "description": "A saturated vampire-night palette with magenta accents and bright cyan diffs.",
+  "tags": [
+    "dark",
+    "popular",
+    "neon"
+  ],
+  "featured": true,
+  "createdAt": "2026-02-04",
+  "baseLikes": 98,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#bd93f9",
+      "contrast": 82,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#f8f8f2",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#50fa7b",
+        "diffRemoved": "#ff5555",
+        "skill": "#8be9fd"
+      },
+      "surface": "#282a36"
+    },
+    "variant": "dark"
+  }
+}

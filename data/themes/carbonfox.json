@@ -1,0 +1,35 @@
+{
+  "slug": "carbonfox",
+  "name": "Carbonfox",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A graphite-forward palette imported from the Windows Terminal collection with disciplined contrast.",
+  "tags": [
+    "terminal",
+    "popular",
+    "graphite"
+  ],
+  "featured": true,
+  "createdAt": "2026-03-13T07:36:00.000Z",
+  "baseLikes": 46,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#8cb6ff",
+      "contrast": 77,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#f2f4f8",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#46c880",
+        "diffRemoved": "#f16da6",
+        "skill": "#c8a5ff"
+      },
+      "surface": "#161616"
+    },
+    "variant": "dark"
+  }
+}

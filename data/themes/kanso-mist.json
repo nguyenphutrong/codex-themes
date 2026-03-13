@@ -1,0 +1,35 @@
+{
+  "slug": "kanso-mist",
+  "name": "Kanso Mist",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A quiet zen palette ported from the Ghostty collection with balanced neutrals and restrained color.",
+  "tags": [
+    "ghostty",
+    "popular",
+    "zen"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13T07:10:00.000Z",
+  "baseLikes": 45,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#7fb4ca",
+      "contrast": 40,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#c5c9c7",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#87a987",
+        "diffRemoved": "#e46876",
+        "skill": "#938aa9"
+      },
+      "surface": "#22262d"
+    },
+    "variant": "dark"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "rose-pine-dawn",
+  "name": "Rose Pine Dawn",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A soft rose-toned palette ported from the Ghostty collection for gentle contrast.",
+  "tags": [
+    "ghostty",
+    "popular",
+    "soft"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13T07:08:00.000Z",
+  "baseLikes": 45,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#56949f",
+      "contrast": 28,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#575279",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#286983",
+        "diffRemoved": "#b4637a",
+        "skill": "#907aa9"
+      },
+      "surface": "#faf4ed"
+    },
+    "variant": "light"
+  }
+}

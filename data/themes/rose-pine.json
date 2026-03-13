@@ -4,7 +4,11 @@
   "author": "Jordan Scales",
   "authorUrl": "https://rosepinetheme.com/",
   "description": "Muted plum, pine, and moon tones tuned for long, low-glare sessions.",
-  "tags": ["moody", "editorial", "soft"],
+  "tags": [
+    "moody",
+    "editorial",
+    "soft"
+  ],
   "featured": true,
   "createdAt": "2025-12-29",
   "baseLikes": 86,
@@ -14,8 +18,8 @@
       "accent": "#c4a7e7",
       "contrast": 70,
       "fonts": {
-        "code": "Maple Mono NF",
-        "ui": "Maple Mono NF"
+        "code": null,
+        "ui": null
       },
       "ink": "#e0def4",
       "opaqueWindows": true,

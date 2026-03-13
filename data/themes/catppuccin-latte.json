@@ -1,0 +1,35 @@
+{
+  "slug": "catppuccin-latte",
+  "name": "Catppuccin Latte",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A creamy pastel palette imported from the VS Code collection for softer but still readable contrast.",
+  "tags": [
+    "vscode",
+    "popular",
+    "pastel"
+  ],
+  "featured": true,
+  "createdAt": "2026-03-13T07:39:00.000Z",
+  "baseLikes": 49,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#456eff",
+      "contrast": 30,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#4c4f69",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#49af3d",
+        "diffRemoved": "#de293e",
+        "skill": "#fe85d8"
+      },
+      "surface": "#eff1f5"
+    },
+    "variant": "light"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "dark-plus",
+  "name": "Dark+",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A dependable all-purpose palette imported from the VS Code collection for everyday development.",
+  "tags": [
+    "vscode",
+    "popular",
+    "utility"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13T07:51:00.000Z",
+  "baseLikes": 61,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#3b8eea",
+      "contrast": 47,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#cccccc",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#23d18b",
+        "diffRemoved": "#f14c4c",
+        "skill": "#d670d6"
+      },
+      "surface": "#1e1e1e"
+    },
+    "variant": "dark"
+  }
+}

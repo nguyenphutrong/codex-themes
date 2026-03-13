@@ -1,0 +1,35 @@
+{
+  "slug": "night-owl",
+  "name": "Night Owl",
+  "author": "Sarah Drasner",
+  "authorUrl": "https://github.com/sdras/night-owl-vscode-theme",
+  "description": "Deep indigo surfaces with electric teal cues tuned for long evening sessions.",
+  "tags": [
+    "dark",
+    "night",
+    "contrast"
+  ],
+  "featured": true,
+  "createdAt": "2026-02-06",
+  "baseLikes": 92,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#82aaff",
+      "contrast": 84,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#d6deeb",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#22da6e",
+        "diffRemoved": "#ef5350",
+        "skill": "#c792ea"
+      },
+      "surface": "#011627"
+    },
+    "variant": "dark"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "bluloco-light",
+  "name": "Bluloco Light",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A typeset-friendly palette imported from the Ghostty or VS Code collection for reading-heavy workflows.",
+  "tags": [
+    "vscode",
+    "popular",
+    "editorial"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13T07:53:00.000Z",
+  "baseLikes": 63,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#0099e1",
+      "contrast": 49,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#373a41",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#3cbc66",
+        "diffRemoved": "#ff6480",
+        "skill": "#ce33c0"
+      },
+      "surface": "#f9f9f9"
+    },
+    "variant": "light"
+  }
+}

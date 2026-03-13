@@ -1,0 +1,35 @@
+{
+  "slug": "andromeda",
+  "name": "Andromeda",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A neon-leaning palette imported from the collection with vivid accents and bright semantic cues.",
+  "tags": [
+    "vscode",
+    "popular",
+    "neon"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13T07:58:00.000Z",
+  "baseLikes": 68,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#2472c8",
+      "contrast": 52,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#e5e5e5",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#05bc79",
+        "diffRemoved": "#cd3131",
+        "skill": "#bc3fbc"
+      },
+      "surface": "#262a33"
+    },
+    "variant": "dark"
+  }
+}

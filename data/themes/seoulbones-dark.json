@@ -1,0 +1,35 @@
+{
+  "slug": "seoulbones-dark",
+  "name": "Seoulbones Dark",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A bone-toned monochrome palette ported from the Ghostty collection for distraction-free coding.",
+  "tags": [
+    "ghostty",
+    "popular",
+    "monochrome"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13T07:06:00.000Z",
+  "baseLikes": 45,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#a2c8e9",
+      "contrast": 27,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#dddddd",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#8fcd92",
+        "diffRemoved": "#eb99b1",
+        "skill": "#b2b3da"
+      },
+      "surface": "#4b4b4b"
+    },
+    "variant": "dark"
+  }
+}

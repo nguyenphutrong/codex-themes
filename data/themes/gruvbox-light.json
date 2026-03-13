@@ -1,0 +1,35 @@
+{
+  "slug": "gruvbox-light",
+  "name": "Gruvbox Light",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A retro terminal palette imported from the collection with warm analog character.",
+  "tags": [
+    "vscode",
+    "popular",
+    "retro"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13T07:45:00.000Z",
+  "baseLikes": 55,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#076678",
+      "contrast": 46,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#3c3836",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#79740e",
+        "diffRemoved": "#9d0006",
+        "skill": "#8f3f71"
+      },
+      "surface": "#fbf1c7"
+    },
+    "variant": "light"
+  }
+}

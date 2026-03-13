@@ -4,7 +4,11 @@
   "author": "Arctic Studio",
   "authorUrl": "https://www.nordtheme.com/",
   "description": "Glacial blues and polar ink for clean, high-legibility coding.",
-  "tags": ["minimal", "cold", "utility"],
+  "tags": [
+    "minimal",
+    "cold",
+    "utility"
+  ],
   "featured": true,
   "createdAt": "2026-01-05",
   "baseLikes": 73,
@@ -14,8 +18,8 @@
       "accent": "#88c0d0",
       "contrast": 76,
       "fonts": {
-        "code": "Maple Mono NF",
-        "ui": "Maple Mono NF"
+        "code": null,
+        "ui": null
       },
       "ink": "#eceff4",
       "opaqueWindows": true,

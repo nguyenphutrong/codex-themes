@@ -1,0 +1,35 @@
+{
+  "slug": "dawnfox",
+  "name": "Dawnfox",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A dawn-tinted fox-family palette imported from the Windows Terminal collection with gentle warmth.",
+  "tags": [
+    "terminal",
+    "popular",
+    "sunrise"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13T07:34:00.000Z",
+  "baseLikes": 45,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#2d81a3",
+      "contrast": 28,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#575279",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#629f81",
+        "diffRemoved": "#c26d85",
+        "skill": "#9a80b9"
+      },
+      "surface": "#faf4ed"
+    },
+    "variant": "light"
+  }
+}

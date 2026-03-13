@@ -1,0 +1,35 @@
+{
+  "slug": "tomorrow",
+  "name": "Tomorrow",
+  "author": "iTerm2 Color Schemes",
+  "authorUrl": "https://github.com/mbadolato/iTerm2-Color-Schemes",
+  "description": "A restrained palette imported from the collection for developers who prefer minimal visual noise.",
+  "tags": [
+    "terminal",
+    "popular",
+    "minimal"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13T07:18:00.000Z",
+  "baseLikes": 45,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#4271ae",
+      "contrast": 37,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#4d4d4c",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#718c00",
+        "diffRemoved": "#c82829",
+        "skill": "#8959a8"
+      },
+      "surface": "#ffffff"
+    },
+    "variant": "light"
+  }
+}

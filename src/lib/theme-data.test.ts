@@ -8,8 +8,18 @@ import {
 
 describe("theme data", () => {
 	it("parses the seeded gallery data", () => {
-		expect(allThemes).toHaveLength(6);
-		expect(allThemes[0]?.slug).toBe("midnight-sakura");
+		expect(allThemes.length).toBeGreaterThanOrEqual(50);
+		expect(new Set(allThemes.map((theme) => theme.slug)).size).toBe(
+			allThemes.length,
+		);
+		expect(allThemes.some((theme) => theme.slug === "dracula-official")).toBe(
+			true,
+		);
+		expect(allThemes.some((theme) => theme.slug === "nightfox")).toBe(true);
+		expect(allThemes.some((theme) => theme.slug === "flexoki-dark")).toBe(true);
+		expect(allThemes.some((theme) => theme.slug === "tokyo-night-storm")).toBe(
+			true,
+		);
 	});
 
 	it("rejects invalid theme records", () => {
@@ -21,7 +31,7 @@ describe("theme data", () => {
 					theme: {
 						accent: "#7aa2f7",
 						contrast: 50,
-						fonts: { code: "Maple Mono NF", ui: "Maple Mono NF" },
+						fonts: { code: null, ui: null },
 						ink: "#d9e1ff",
 						opaqueWindows: true,
 						semanticColors: {
