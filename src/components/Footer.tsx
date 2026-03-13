@@ -9,7 +9,7 @@ export default function Footer() {
 					{allThemes.length} themes in the community library.
 				</p>
 				<div className="flex items-center gap-4">
-					<Link to="/themes" className="footer-link">
+					<Link to="/" className="footer-link">
 						Browse
 					</Link>
 					<Link to="/submit" className="footer-link">

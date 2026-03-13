@@ -1,7 +1,6 @@
-import { Link } from "@tanstack/react-router";
-import { ArrowUpRight } from "lucide-react";
-import { CopyThemeButton } from "#/components/theme/CopyThemeButton";
-import { ThemePreviewEditor } from "#/components/theme/ThemePreviewEditor";
+import { Check, Copy } from "lucide-react";
+import { useState } from "react";
+import { ThemePreview } from "#/components/theme/ThemePreview";
 import { Badge } from "#/components/ui/badge";
 import { Card, CardContent } from "#/components/ui/card";
 import { buildThemeString } from "#/lib/theme-data";
@@ -13,44 +12,63 @@ interface ThemeCardProps {
 }
 
 export function ThemeCard({ theme, interactive = true }: ThemeCardProps) {
+	const [copied, setCopied] = useState(false);
+
+	async function handleCopy() {
+		await navigator.clipboard.writeText(buildThemeString(theme.codexTheme));
+		setCopied(true);
+		window.setTimeout(() => setCopied(false), 2000);
+	}
+
+	const copyOverlay = interactive ? (
+		<button
+			type="button"
+			onClick={handleCopy}
+			className="flex items-center gap-2 rounded-lg px-5 py-2.5 font-medium transition-transform hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--ring)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--page)]"
+			style={{
+				backgroundColor: theme.codexTheme.theme.accent,
+				color: theme.codexTheme.theme.surface,
+			}}
+		>
+			{copied ? (
+				<>
+					<Check className="h-4 w-4" />
+					Copied!
+				</>
+			) : (
+				<>
+					<Copy className="h-4 w-4" />
+					Copy Theme
+				</>
+			)}
+		</button>
+	) : null;
+
 	return (
-		<Card className="theme-card overflow-hidden">
-			<CardContent className="space-y-4">
-				<Link
-					to="/themes/$slug"
-					params={{ slug: theme.slug }}
-					className="group block space-y-4 no-underline"
-					aria-label={`Open ${theme.name}`}
-				>
-					<div className="flex items-start justify-between gap-4">
-						<div className="min-w-0">
-							<h3 className="truncate text-base font-semibold tracking-tight text-[color:var(--text)]">
-								{theme.name}
-							</h3>
-							<p className="m-0 truncate text-sm text-[color:var(--text-soft)]">
-								{theme.author}
-							</p>
-						</div>
-						<span className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-[color:var(--line)] bg-[color:var(--panel-strong)] text-[color:var(--text)] transition group-hover:border-[color:var(--line-strong)]">
-							<ArrowUpRight className="h-4 w-4" />
+		<Card className="theme-card group overflow-hidden">
+			<CardContent className="p-2 sm:p-2">
+				<ThemePreview theme={theme} mode="card" overlay={copyOverlay} />
+
+				<div className="flex flex-1 flex-col gap-1.5 p-3">
+					<div className="flex items-start justify-between">
+						<h3 className="truncate text-base font-semibold tracking-tight text-[color:var(--text)]">
+							{theme.name}
+						</h3>
+						<span className="shrink-0 rounded-full bg-[color:var(--page-elevated)] px-2 py-0.5 text-xs text-[color:var(--text-dim)]">
+							{theme.codexTheme.variant}
 						</span>
 					</div>
-					<ThemePreviewEditor theme={theme} compact />
-				</Link>
-				<div className="flex flex-wrap items-center gap-2">
-					<Badge variant="accent">{theme.codexTheme.variant}</Badge>
-					{theme.tags.slice(0, 2).map((tag) => (
-						<Badge key={tag}>{tag}</Badge>
-					))}
-				</div>
-				<div className="flex flex-wrap items-center justify-between gap-3">
-					{interactive ? (
-						<CopyThemeButton value={buildThemeString(theme.codexTheme)} />
-					) : (
-						<div className="text-sm text-[color:var(--text-soft)]">
-							Static preview
-						</div>
-					)}
+					<p className="m-0 line-clamp-2 text-sm leading-relaxed text-[color:var(--text-soft)]">
+						{theme.description}
+					</p>
+
+					<div className="mt-auto flex flex-wrap gap-1 pt-2">
+						{theme.tags.slice(0, 3).map((tag) => (
+							<Badge key={tag} className="px-2 py-0.5 text-[10px]">
+								{tag}
+							</Badge>
+						))}
+					</div>
 				</div>
 			</CardContent>
 		</Card>

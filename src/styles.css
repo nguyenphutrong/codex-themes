@@ -121,6 +121,11 @@ pre code {
 	margin-inline: auto;
 }
 
+.gallery-page-wrap {
+	width: min(1120px, calc(100% - 2rem));
+	margin-inline: auto;
+}
+
 .eyebrow {
 	margin: 0;
 	font-size: 0.68rem;
@@ -195,51 +200,222 @@ pre code {
 	transition:
 		border-color 180ms ease,
 		background-color 180ms ease;
+	content-visibility: auto;
+	contain-intrinsic-size: 420px;
 }
 
 .theme-card:hover {
 	border-color: var(--line-strong);
 }
 
-.preview-dot {
+.theme-gallery-grid {
+	display: grid;
+	gap: 0.9rem;
+	grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+@media (min-width: 640px) {
+	.theme-gallery-grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}
+
+@media (min-width: 900px) {
+	.theme-gallery-grid {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
+}
+
+@media (min-width: 1120px) {
+	.theme-gallery-grid {
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+	}
+}
+
+.theme-feed-sentinel {
 	display: inline-flex;
-	height: 0.65rem;
-	width: 0.65rem;
+	align-items: center;
+	gap: 0.65rem;
+	border: 1px solid var(--line);
+	border-radius: 999px;
+	background: color-mix(in srgb, var(--panel) 88%, transparent);
+	padding: 0.75rem 1rem;
+	font-size: 0.72rem;
+	font-weight: 600;
+	letter-spacing: 0.18em;
+	text-transform: uppercase;
+	color: var(--text-soft);
+}
+
+.theme-feed-spinner {
+	height: 0.8rem;
+	width: 0.8rem;
+	border: 2px solid color-mix(in srgb, var(--accent-strong) 22%, transparent);
+	border-top-color: var(--accent-strong);
+	border-radius: 999px;
+	animation: theme-spin 0.9s linear infinite;
+}
+
+/* ── Theme Preview (terminal-style mini editor) ── */
+
+.theme-preview {
+	overflow: hidden;
+	border-radius: 0.9rem;
+	border: 1px solid color-mix(in srgb, var(--tp-ink) 10%, transparent);
+	box-shadow: 0 8px 24px color-mix(in srgb, var(--tp-surface) 24%, transparent);
+}
+
+.theme-preview__terminal {
+	position: relative;
+	overflow: hidden;
+}
+
+.theme-preview__overlay {
+	position: absolute;
+	inset: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(0, 0, 0, 0.7);
+	opacity: 0;
+	transition: opacity 250ms ease;
+}
+
+.group:hover .theme-preview__overlay {
+	opacity: 1;
+}
+
+.theme-preview__header {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 0.55rem 0.85rem;
+}
+
+.theme-preview__dots {
+	display: flex;
+	gap: 0.35rem;
+}
+
+.theme-preview__dot {
+	height: 0.55rem;
+	width: 0.55rem;
 	border-radius: 999px;
 }
 
-.theme-preview-code {
+.theme-preview__dot--close { background: #ff5f56; }
+.theme-preview__dot--minimize { background: #ffbd2e; }
+.theme-preview__dot--maximize { background: #27ca40; }
+
+.theme-preview__filename {
+	margin-left: 0.35rem;
 	font-family: var(--font-mono);
-	white-space: pre-wrap;
+	font-size: 0.68rem;
 }
 
-.theme-preview-code .hljs-keyword,
-.theme-preview-code .hljs-literal {
-	color: var(--preview-accent);
+.theme-preview__code {
+	padding: 0.5rem 0.85rem 0.85rem;
+	font-family: var(--font-mono);
+	font-size: 0.72rem;
+	line-height: 1.75;
 }
 
-.theme-preview-code .hljs-string,
-.theme-preview-code .hljs-title.function_ {
-	color: var(--preview-skill);
+.theme-preview__code-line {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0 0.28rem;
 }
 
-.theme-preview-code .hljs-number,
-.theme-preview-code .hljs-symbol {
-	color: var(--preview-diff-removed);
+.theme-preview__code-line.is-indented {
+	padding-left: 1rem;
 }
 
-.theme-preview-code .hljs-params,
-.theme-preview-code .hljs-variable {
-	color: color-mix(in srgb, var(--preview-ink) 78%, white);
+/* ── Info section below terminal ── */
+
+.theme-preview__info {
+	display: grid;
+	gap: 0.65rem;
+	border-top: 1px solid var(--line);
+	background: color-mix(in srgb, var(--panel) 92%, transparent);
+	padding: 0.85rem 0.9rem;
 }
 
-.theme-preview-code .hljs-comment {
-	color: color-mix(in srgb, var(--preview-ink) 45%, transparent);
+.theme-preview__swatches {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.4rem;
 }
 
-.theme-preview-code .hljs-subst,
-.theme-preview-code .hljs-punctuation {
-	color: color-mix(in srgb, var(--preview-ink) 68%, transparent);
+.theme-preview__swatch {
+	height: 1.15rem;
+	width: 1.15rem;
+	border-radius: 0.3rem;
+	border: 1px solid color-mix(in srgb, var(--line-strong) 50%, transparent);
+	transition: transform 140ms ease;
+}
+
+.theme-preview__swatch:hover {
+	transform: scale(1.15);
+}
+
+.theme-preview__meta {
+	display: grid;
+	gap: 0.35rem;
+}
+
+.theme-preview__meta-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0.6rem;
+	font-size: 0.72rem;
+}
+
+.theme-preview__meta-label {
+	color: var(--text-dim);
+	font-size: 0.68rem;
+}
+
+.theme-preview__meta-value {
+	font-family: var(--font-mono);
+	font-size: 0.72rem;
+	color: var(--text-soft);
+}
+
+/* ── Card-mode (compact) overrides ── */
+
+.theme-preview.is-card .theme-preview__header {
+	padding: 0.45rem 0.7rem;
+}
+
+.theme-preview.is-card .theme-preview__dot {
+	height: 0.45rem;
+	width: 0.45rem;
+}
+
+.theme-preview.is-card .theme-preview__filename {
+	font-size: 0.6rem;
+}
+
+.theme-preview.is-card .theme-preview__code {
+	padding: 0.35rem 0.7rem 0.7rem;
+	font-size: 0.65rem;
+	line-height: 1.65;
+}
+
+.theme-preview.is-card .theme-preview__info {
+	padding: 0.65rem 0.7rem;
+}
+
+.theme-preview.is-card .theme-preview__swatch {
+	height: 0.95rem;
+	width: 0.95rem;
+}
+
+@keyframes theme-spin {
+	to {
+		transform: rotate(360deg);
+	}
 }
 
 .prose {
@@ -274,4 +450,21 @@ pre code {
 	.page-wrap {
 		width: min(100%, calc(100% - 1.25rem));
 	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
+
+/* RTL support using logical properties */
+[dir="rtl"] .theme-preview__code-line.is-indented {
+	padding-left: 0;
+	padding-right: 1rem;
 }

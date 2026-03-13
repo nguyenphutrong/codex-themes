@@ -1,7 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
+import type { ReactNode } from "react";
 import { useState } from "react";
-import { ThemeCard } from "#/components/theme/ThemeCard";
 import { ThemeFilters } from "#/components/theme/ThemeFilters";
+import { ThemeGalleryGrid } from "#/components/theme/ThemeGalleryGrid";
 import { allTags, allThemes, filterThemes } from "#/lib/theme-data";
 import type { ThemeFilterOptions } from "#/lib/theme-types";
 
@@ -36,21 +37,21 @@ export function HomePageContent({
 	filteredThemes,
 	interactiveCards = true,
 	onFiltersChange,
+	galleryContent,
 }: {
 	filters: Required<ThemeFilterOptions>;
 	filteredThemes: typeof allThemes;
 	interactiveCards?: boolean;
 	onFiltersChange(next: Partial<Required<ThemeFilterOptions>>): void;
+	galleryContent?: ReactNode;
 }) {
 	return (
-		<main className="page-wrap space-y-6 px-4 pb-14 pt-8 sm:pt-10">
+		<main className="gallery-page-wrap space-y-6 pb-14 pt-8 sm:pt-10">
 			<section className="gallery-shell space-y-4">
 				<div className="space-y-2">
 					<p className="eyebrow">Community themes</p>
 					<h1 className="page-title">Pick a theme and copy it.</h1>
-					<p className="page-subtitle">
-						The gallery is visible immediately, with filters already open.
-					</p>
+					<p className="page-subtitle">Browse and copy themes for Codex App.</p>
 				</div>
 				<p className="text-sm text-[color:var(--text-dim)]">
 					{filteredThemes.length} / {allThemes.length} themes
@@ -65,15 +66,12 @@ export function HomePageContent({
 				onChange={onFiltersChange}
 			/>
 
-			<section className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-				{filteredThemes.map((theme) => (
-					<ThemeCard
-						key={theme.slug}
-						theme={theme}
-						interactive={interactiveCards}
-					/>
-				))}
-			</section>
+			{galleryContent ?? (
+				<ThemeGalleryGrid
+					themes={filteredThemes}
+					interactiveCards={interactiveCards}
+				/>
+			)}
 		</main>
 	);
 }

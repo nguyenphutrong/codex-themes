@@ -198,19 +198,25 @@ export function parseThemeRecord(raw: unknown, source = "theme"): ThemeRecord {
 	};
 }
 
-export const allThemes = Object.entries(rawThemeModules)
-	.map(([source, raw]) => parseThemeRecord(raw, source))
-	.sort((left, right) => right.createdAt.localeCompare(left.createdAt));
+export const allThemes = (() => {
+	const themes: ThemeRecord[] = [];
+	for (const [source, raw] of Object.entries(rawThemeModules)) {
+		try {
+			themes.push(parseThemeRecord(raw, source));
+		} catch (e) {
+			console.error(`Failed to parse theme from ${source}:`, e);
+		}
+	}
+	return themes.sort((left, right) =>
+		right.createdAt.localeCompare(left.createdAt),
+	);
+})();
 
 export const featuredThemes = allThemes.filter((theme) => theme.featured);
 
 export const allTags = [
 	...new Set(allThemes.flatMap((theme) => theme.tags)),
 ].sort();
-
-export function getThemeBySlug(slug: string) {
-	return allThemes.find((theme) => theme.slug === slug);
-}
 
 export function filterThemes(
 	themes: ThemeRecord[],
@@ -233,33 +239,3 @@ export function filterThemes(
 
 	return filtered;
 }
-
-export function getRelatedThemes(theme: ThemeRecord, limit = 3) {
-	return allThemes
-		.filter((candidate) => candidate.slug !== theme.slug)
-		.sort((left, right) => {
-			const leftScore =
-				left.tags.filter((tag) => theme.tags.includes(tag)).length * 10 +
-				(left.codexTheme.variant === theme.codexTheme.variant ? 1 : 0);
-			const rightScore =
-				right.tags.filter((tag) => theme.tags.includes(tag)).length * 10 +
-				(right.codexTheme.variant === theme.codexTheme.variant ? 1 : 0);
-
-			return (
-				rightScore - leftScore || right.createdAt.localeCompare(left.createdAt)
-			);
-		})
-		.slice(0, limit);
-}
-
-export const sampleEditorCode = `import { createTheme } from "codex/themes"
-
-export const commandCenter = createTheme({
-  title: "Codex Themes",
-  preview: true,
-  steps: ["browse", "copy", "ship"],
-})
-
-function applyTheme(accent: string) {
-  return \`Theme ready: \${accent}\`
-}`;
