@@ -1,0 +1,31 @@
+{
+  "slug": "rose-pine",
+  "name": "Rose Pine",
+  "author": "Jordan Scales",
+  "authorUrl": "https://rosepinetheme.com/",
+  "description": "Muted plum, pine, and moon tones tuned for long, low-glare sessions.",
+  "tags": ["moody", "editorial", "soft"],
+  "featured": true,
+  "createdAt": "2025-12-29",
+  "baseLikes": 86,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#c4a7e7",
+      "contrast": 70,
+      "fonts": {
+        "code": "Maple Mono NF",
+        "ui": "Maple Mono NF"
+      },
+      "ink": "#e0def4",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#9ccfd8",
+        "diffRemoved": "#eb6f92",
+        "skill": "#f6c177"
+      },
+      "surface": "#191724"
+    },
+    "variant": "dark"
+  }
+}

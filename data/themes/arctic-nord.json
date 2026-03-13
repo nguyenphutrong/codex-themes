@@ -1,0 +1,31 @@
+{
+  "slug": "arctic-nord",
+  "name": "Arctic Nord",
+  "author": "Arctic Studio",
+  "authorUrl": "https://www.nordtheme.com/",
+  "description": "Glacial blues and polar ink for clean, high-legibility coding.",
+  "tags": ["minimal", "cold", "utility"],
+  "featured": true,
+  "createdAt": "2026-01-05",
+  "baseLikes": 73,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#88c0d0",
+      "contrast": 76,
+      "fonts": {
+        "code": "Maple Mono NF",
+        "ui": "Maple Mono NF"
+      },
+      "ink": "#eceff4",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#a3be8c",
+        "diffRemoved": "#bf616a",
+        "skill": "#b48ead"
+      },
+      "surface": "#2e3440"
+    },
+    "variant": "dark"
+  }
+}

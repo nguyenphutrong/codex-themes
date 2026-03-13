@@ -1,0 +1,31 @@
+{
+  "slug": "gruvbox-soft",
+  "name": "Gruvbox Soft",
+  "author": "Community Remix",
+  "authorUrl": "https://github.com/morhetz/gruvbox",
+  "description": "A softened gruvbox variant with warm ochre accents and lower glare.",
+  "tags": ["retro", "warm", "terminal"],
+  "featured": false,
+  "createdAt": "2026-01-14",
+  "baseLikes": 67,
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#d79921",
+      "contrast": 68,
+      "fonts": {
+        "code": "Maple Mono NF",
+        "ui": "Maple Mono NF"
+      },
+      "ink": "#ebdbb2",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#98971a",
+        "diffRemoved": "#cc241d",
+        "skill": "#b16286"
+      },
+      "surface": "#32302f"
+    },
+    "variant": "dark"
+  }
+}
