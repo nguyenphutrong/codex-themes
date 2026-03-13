@@ -1,12 +1,18 @@
 import { createFileRoute } from "@tanstack/react-router";
 import React, { type ReactNode, useMemo, useState } from "react";
 import { CopyThemeButton } from "#/components/theme/CopyThemeButton";
+import { ThemeFontControls } from "#/components/theme/ThemeFontControls";
 import { ThemePreview } from "#/components/theme/ThemePreview";
 import { Button } from "#/components/ui/button";
 import { Input } from "#/components/ui/input";
 import { Select } from "#/components/ui/select";
 import { Textarea } from "#/components/ui/textarea";
+import { useThemeFontPreferences } from "#/hooks/use-theme-font-preferences";
 import { COMMUNITY_NEW_PR_URL, COMMUNITY_REPO_URL } from "#/lib/site";
+import {
+	mergeThemePayloadFonts,
+	mergeThemeRecordFonts,
+} from "#/lib/theme-data";
 import {
 	buildDraftThemeRecord,
 	buildPayloadFromSubmitForm,
@@ -24,6 +30,7 @@ export function SubmitPage() {
 		DEFAULT_SUBMIT_VALUES,
 	);
 	const validation = validateSubmitThemeForm(formValues);
+	const { resolvedFonts } = useThemeFontPreferences();
 	const draftTheme = useMemo(
 		() => buildDraftThemeRecord(formValues),
 		[formValues],
@@ -32,8 +39,16 @@ export function SubmitPage() {
 		() => buildPayloadFromSubmitForm(formValues),
 		[formValues],
 	);
-	const payloadJson = JSON.stringify(payload, null, 2);
-	const themeString = `codex-theme-v1:${JSON.stringify(payload)}`;
+	const mergedPayload = useMemo(
+		() => mergeThemePayloadFonts(payload, resolvedFonts),
+		[payload, resolvedFonts],
+	);
+	const mergedDraftTheme = useMemo(
+		() => mergeThemeRecordFonts(draftTheme, resolvedFonts),
+		[draftTheme, resolvedFonts],
+	);
+	const payloadJson = JSON.stringify(mergedPayload, null, 2);
+	const themeString = `codex-theme-v1:${JSON.stringify(mergedPayload)}`;
 
 	function updateField<K extends keyof SubmitThemeFormValues>(
 		field: K,
@@ -230,7 +245,8 @@ export function SubmitPage() {
 			</section>
 
 			<section className="space-y-6 xl:sticky xl:top-24 xl:self-start">
-				<ThemePreview theme={draftTheme} mode="submit" />
+				<ThemeFontControls compact />
+				<ThemePreview theme={mergedDraftTheme} mode="submit" />
 				<div className="rounded-[1.8rem] border border-[color:var(--line)] bg-[color:var(--panel)] p-5">
 					<div className="mb-4 flex flex-wrap gap-3">
 						<CopyThemeButton value={themeString} variant="default" />

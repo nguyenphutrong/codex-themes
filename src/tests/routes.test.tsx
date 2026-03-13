@@ -53,6 +53,8 @@ describe("route smoke tests", () => {
 				filters={{ query: "", tag: "", variant: "all" }}
 				filteredThemes={allThemes}
 				interactiveCards={false}
+				fontControls={<div data-testid="theme-font-controls" />}
+				stickyFontControls={false}
 				onFiltersChange={() => {}}
 				galleryContent={
 					<section data-testid="theme-gallery-grid">

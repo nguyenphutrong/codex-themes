@@ -70,4 +70,14 @@ describe("theme data", () => {
 		expect(themeString.startsWith("codex-theme-v1:")).toBe(true);
 		expect(themeString).toContain('"variant"');
 	});
+
+	it("merges selected fonts into the copied theme string", () => {
+		const themeString = buildThemeString(allThemes[0].codexTheme, {
+			ui: "Maple Mono NF",
+			code: "JetBrains Mono",
+		});
+
+		expect(themeString).toContain('"ui":"Maple Mono NF"');
+		expect(themeString).toContain('"code":"JetBrains Mono"');
+	});
 });

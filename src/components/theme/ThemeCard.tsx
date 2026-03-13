@@ -3,7 +3,8 @@ import { useState } from "react";
 import { ThemePreview } from "#/components/theme/ThemePreview";
 import { Badge } from "#/components/ui/badge";
 import { Card, CardContent } from "#/components/ui/card";
-import { buildThemeString } from "#/lib/theme-data";
+import { useThemeFontPreferences } from "#/hooks/use-theme-font-preferences";
+import { buildThemeString, mergeThemeRecordFonts } from "#/lib/theme-data";
 import type { ThemeRecord } from "#/lib/theme-types";
 
 interface ThemeCardProps {
@@ -13,9 +14,13 @@ interface ThemeCardProps {
 
 export function ThemeCard({ theme, interactive = true }: ThemeCardProps) {
 	const [copied, setCopied] = useState(false);
+	const { resolvedFonts } = useThemeFontPreferences();
+	const resolvedTheme = mergeThemeRecordFonts(theme, resolvedFonts);
 
 	async function handleCopy() {
-		await navigator.clipboard.writeText(buildThemeString(theme.codexTheme));
+		await navigator.clipboard.writeText(
+			buildThemeString(theme.codexTheme, resolvedFonts),
+		);
 		setCopied(true);
 		window.setTimeout(() => setCopied(false), 2000);
 	}
@@ -47,7 +52,7 @@ export function ThemeCard({ theme, interactive = true }: ThemeCardProps) {
 	return (
 		<Card className="theme-card group overflow-hidden">
 			<CardContent className="p-2 sm:p-2">
-				<ThemePreview theme={theme} mode="card" overlay={copyOverlay} />
+				<ThemePreview theme={resolvedTheme} mode="card" overlay={copyOverlay} />
 
 				<div className="flex flex-1 flex-col gap-1.5 p-3">
 					<div className="flex items-start justify-between">

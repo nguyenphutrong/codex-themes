@@ -1,3 +1,4 @@
+import type { ResolvedThemeFonts } from "#/lib/theme-fonts";
 import type {
 	CodexThemePayload,
 	ThemeFilterOptions,
@@ -57,8 +58,40 @@ export function slugify(value: string) {
 		.replace(/^-+|-+$/g, "");
 }
 
-export function buildThemeString(payload: CodexThemePayload) {
-	return `codex-theme-v1:${JSON.stringify(payload)}`;
+export function mergeThemePayloadFonts(
+	payload: CodexThemePayload,
+	fonts: ResolvedThemeFonts,
+): CodexThemePayload {
+	return {
+		...payload,
+		theme: {
+			...payload.theme,
+			fonts: {
+				ui: fonts.ui ?? payload.theme.fonts.ui ?? null,
+				code: fonts.code ?? payload.theme.fonts.code ?? null,
+			},
+		},
+	};
+}
+
+export function mergeThemeRecordFonts(
+	theme: ThemeRecord,
+	fonts: ResolvedThemeFonts,
+): ThemeRecord {
+	return {
+		...theme,
+		codexTheme: mergeThemePayloadFonts(theme.codexTheme, fonts),
+	};
+}
+
+export function buildThemeString(
+	payload: CodexThemePayload,
+	fonts?: ResolvedThemeFonts,
+) {
+	const effectivePayload = fonts
+		? mergeThemePayloadFonts(payload, fonts)
+		: payload;
+	return `codex-theme-v1:${JSON.stringify(effectivePayload)}`;
 }
 
 export function parseThemeRecord(raw: unknown, source = "theme"): ThemeRecord {

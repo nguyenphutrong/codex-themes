@@ -9,6 +9,7 @@ import { TanStackRouterDevtoolsPanel } from "@tanstack/react-router-devtools";
 import { ErrorBoundary } from "#/components/ErrorBoundary";
 import Footer from "#/components/Footer";
 import Header from "#/components/Header";
+import { ThemeFontPreferencesProvider } from "#/hooks/use-theme-font-preferences";
 import TanStackQueryDevtools from "#/integrations/tanstack-query/devtools";
 import TanStackQueryProvider from "#/integrations/tanstack-query/root-provider";
 import appCss from "#/styles.css?url";
@@ -58,13 +59,15 @@ function RootDocument({ children }: { children: React.ReactNode }) {
 			</head>
 			<body className="font-sans antialiased [overflow-wrap:anywhere]">
 				<TanStackQueryProvider>
-					<ErrorBoundary>
-						<div className="site-frame">
-							<Header />
-							{children}
-							<Footer />
-						</div>
-					</ErrorBoundary>
+					<ThemeFontPreferencesProvider>
+						<ErrorBoundary>
+							<div className="site-frame">
+								<Header />
+								{children}
+								<Footer />
+							</div>
+						</ErrorBoundary>
+					</ThemeFontPreferencesProvider>
 					<TanStackDevtools
 						config={{
 							position: "bottom-right",
