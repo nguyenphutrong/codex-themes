@@ -2,6 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { GalleryVerticalEnd, Menu, X } from "lucide-react";
 import { useState } from "react";
 import ThemeToggle from "#/components/ThemeToggle";
+import { COMMUNITY_REPO_URL } from "#/lib/site";
 
 export default function Header() {
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -13,14 +14,19 @@ export default function Header() {
 					to="/"
 					className="inline-flex items-center gap-2.5 text-sm font-semibold text-[color:var(--text)] no-underline"
 				>
-					<span className="brand-mark">
-						<GalleryVerticalEnd className="h-3.5 w-3.5 text-white" />
-					</span>
 					<span className="hidden sm:inline">Codex Themes</span>
 					<span className="sm:hidden">Codex</span>
 				</Link>
 
 				<div className="ml-auto flex items-center gap-4">
+					<a
+						href={COMMUNITY_REPO_URL}
+						target="_blank"
+						rel="noreferrer"
+						className="subtle-link hidden sm:inline-flex"
+					>
+						GitHub
+					</a>
 					<Link
 						to="/submit"
 						className="subtle-link hidden sm:inline-flex"
@@ -60,6 +66,15 @@ export default function Header() {
 					className="border-t border-[color:var(--line)] bg-[color:var(--page)] px-4 py-4 md:hidden"
 				>
 					<div className="flex flex-col gap-3">
+						<a
+							href={COMMUNITY_REPO_URL}
+							target="_blank"
+							rel="noreferrer"
+							className="subtle-link"
+							onClick={() => setMobileMenuOpen(false)}
+						>
+							GitHub
+						</a>
 						<Link
 							to="/submit"
 							className="subtle-link"
