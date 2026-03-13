@@ -9,16 +9,15 @@ export default function ThemeToggle() {
 		<Button
 			type="button"
 			variant="secondary"
-			size="sm"
+			size="icon"
 			onClick={toggleMode}
 			aria-label={`Switch to ${mode === "dark" ? "light" : "dark"} mode`}
-			className="min-w-[7.25rem] justify-between"
+			title={mode === "dark" ? "Switch to light mode" : "Switch to dark mode"}
 		>
-			<span>{mode === "dark" ? "Night" : "Day"}</span>
 			{mode === "dark" ? (
-				<MoonStar className="h-4 w-4" />
-			) : (
 				<SunMedium className="h-4 w-4" />
+			) : (
+				<MoonStar className="h-4 w-4" />
 			)}
 		</Button>
 	);

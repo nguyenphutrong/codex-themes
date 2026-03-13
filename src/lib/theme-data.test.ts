@@ -43,15 +43,15 @@ describe("theme data", () => {
 		).toThrow(/slug is required/i);
 	});
 
-	it("sorts popular themes with local likes layered on base likes", () => {
-		const liked = new Set(["ivory-paper"]);
-		const sorted = filterThemes(allThemes, {
-			sort: "popular",
-			likedSlugs: liked,
+	it("filters themes by query, tag, and variant while preserving gallery order", () => {
+		const filtered = filterThemes(allThemes, {
+			query: "tokyo",
+			tag: "neon",
+			variant: "dark",
 		});
 
-		expect(sorted[0]?.slug).toBe("tokyo-night");
-		expect(sorted.at(-1)?.slug).toBe("midnight-sakura");
+		expect(filtered).toHaveLength(1);
+		expect(filtered[0]?.slug).toBe("tokyo-night");
 	});
 
 	it("serializes a valid codex theme string", () => {

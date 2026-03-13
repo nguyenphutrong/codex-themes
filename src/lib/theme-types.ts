@@ -38,8 +38,6 @@ export interface ThemeFilterOptions {
 	query?: string;
 	variant?: ThemeVariant | "all";
 	tag?: string;
-	sort?: "newest" | "popular";
-	likedSlugs?: Iterable<string>;
 }
 
 export interface SubmitThemeFormValues {

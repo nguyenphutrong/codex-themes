@@ -43,12 +43,19 @@ afterEach(() => {
 
 describe("route smoke tests", () => {
 	it("renders featured themes on the home page", async () => {
-		const { HomePage } = await import("#/routes/index");
-		render(<HomePage interactiveCards={false} />);
+		const { HomePageContent } = await import("#/routes/index");
+		const { allThemes } = await import("#/lib/theme-data");
+		render(
+			<HomePageContent
+				filters={{ query: "", tag: "", variant: "all" }}
+				filteredThemes={allThemes}
+				interactiveCards={false}
+				onFiltersChange={() => {}}
+			/>,
+		);
 
-		expect(
-			screen.getByText(/community themes that preview like real editors/i),
-		).toBeDefined();
+		expect(screen.getByText(/pick a theme and copy it/i)).toBeDefined();
+		expect(screen.getByLabelText(/search themes/i)).toBeDefined();
 		expect(screen.getByText("Tokyo Night")).toBeDefined();
 	});
 
@@ -62,7 +69,6 @@ describe("route smoke tests", () => {
 			<ThemeDetailContent
 				theme={theme}
 				relatedThemes={getRelatedThemes(theme)}
-				likes={theme.baseLikes}
 				interactive={false}
 			/>,
 		);

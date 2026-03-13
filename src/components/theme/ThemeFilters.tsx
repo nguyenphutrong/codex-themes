@@ -7,23 +7,19 @@ interface ThemeFiltersProps {
 	query: string;
 	variant: ThemeFilterOptions["variant"];
 	tag: string;
-	sort: ThemeFilterOptions["sort"];
 	tags: string[];
-	onChange(
-		next: Partial<Required<Omit<ThemeFilterOptions, "likedSlugs">>>,
-	): void;
+	onChange(next: Partial<Required<ThemeFilterOptions>>): void;
 }
 
 export function ThemeFilters({
 	query,
 	variant,
 	tag,
-	sort,
 	tags,
 	onChange,
 }: ThemeFiltersProps) {
 	return (
-		<div className="grid gap-3 rounded-[1.6rem] border border-[color:var(--line)] bg-[color:var(--panel)] p-4 sm:grid-cols-2 xl:grid-cols-[1.4fr_repeat(3,minmax(0,0.8fr))]">
+		<div className="grid gap-2 rounded-[1.1rem] border border-[color:var(--line)] bg-[color:var(--panel)] p-3 sm:grid-cols-2 xl:grid-cols-[1.6fr_repeat(2,minmax(0,0.8fr))]">
 			<div className="relative block">
 				<span className="sr-only">Search themes</span>
 				<Search className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-[color:var(--text-dim)]" />
@@ -58,15 +54,6 @@ export function ThemeFilters({
 						{item}
 					</option>
 				))}
-			</Select>
-			<Select
-				value={sort || "popular"}
-				onChange={(event) =>
-					onChange({ sort: event.target.value as ThemeFilterOptions["sort"] })
-				}
-			>
-				<option value="popular">Sort: popular</option>
-				<option value="newest">Sort: newest</option>
 			</Select>
 		</div>
 	);

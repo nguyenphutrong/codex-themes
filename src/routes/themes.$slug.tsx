@@ -1,16 +1,13 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { CopyThemeButton } from "#/components/theme/CopyThemeButton";
-import { HeartButton } from "#/components/theme/HeartButton";
 import { RelatedThemes } from "#/components/theme/RelatedThemes";
 import { ThemeMeta } from "#/components/theme/ThemeMeta";
 import { ThemePreviewEditor } from "#/components/theme/ThemePreviewEditor";
 import { buttonVariants } from "#/components/ui/button";
-import { useLikedThemes } from "#/hooks/use-liked-themes";
 import {
 	buildThemeString,
 	getRelatedThemes,
 	getThemeBySlug,
-	getThemePopularity,
 } from "#/lib/theme-data";
 import { cn } from "#/lib/utils";
 
@@ -31,29 +28,19 @@ export const Route = createFileRoute("/themes/$slug")({
 
 export function ThemeDetailPage() {
 	const { theme, relatedThemes } = Route.useLoaderData();
-	const { likedSlugs } = useLikedThemes();
-	const likes = getThemePopularity(theme, likedSlugs);
 
-	return (
-		<ThemeDetailContent
-			theme={theme}
-			relatedThemes={relatedThemes}
-			likes={likes}
-		/>
-	);
+	return <ThemeDetailContent theme={theme} relatedThemes={relatedThemes} />;
 }
 
 export function ThemeDetailContent({
 	theme,
 	relatedThemes,
-	likes,
 	interactive = true,
 }: {
 	theme: ReturnType<typeof getThemeBySlug> extends infer T
 		? Exclude<T, undefined>
 		: never;
 	relatedThemes: ReturnType<typeof getRelatedThemes>;
-	likes: number;
 	interactive?: boolean;
 }) {
 	return (
@@ -72,13 +59,10 @@ export function ThemeDetailContent({
 
 					<div className="flex flex-wrap gap-3">
 						{interactive ? (
-							<>
-								<CopyThemeButton
-									value={buildThemeString(theme.codexTheme)}
-									variant="default"
-								/>
-								<HeartButton theme={theme} />
-							</>
+							<CopyThemeButton
+								value={buildThemeString(theme.codexTheme)}
+								variant="default"
+							/>
 						) : (
 							<div className="rounded-full border border-[color:var(--line)] px-4 py-2 text-sm text-[color:var(--text-soft)]">
 								Static preview
@@ -96,7 +80,7 @@ export function ThemeDetailContent({
 				</div>
 
 				<div className="space-y-5">
-					<ThemeMeta theme={theme} likes={likes} />
+					<ThemeMeta theme={theme} />
 					<div className="rounded-[1.7rem] border border-[color:var(--line)] bg-[color:var(--panel)] p-6">
 						<h2 className="mb-3 text-lg font-semibold tracking-tight text-[color:var(--text)]">
 							Copy string

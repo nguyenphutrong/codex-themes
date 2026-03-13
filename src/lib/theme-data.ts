@@ -200,14 +200,6 @@ export const allTags = [
 	...new Set(allThemes.flatMap((theme) => theme.tags)),
 ].sort();
 
-export function getThemePopularity(
-	theme: ThemeRecord,
-	likedSlugs?: Iterable<string>,
-) {
-	const likedSet = likedSlugs ? new Set(likedSlugs) : undefined;
-	return theme.baseLikes + (likedSet?.has(theme.slug) ? 1 : 0);
-}
-
 export function getThemeBySlug(slug: string) {
 	return allThemes.find((theme) => theme.slug === slug);
 }
@@ -219,7 +211,6 @@ export function filterThemes(
 	const query = options.query?.trim().toLowerCase() || "";
 	const tag = options.tag?.trim().toLowerCase() || "";
 	const variant = options.variant || "all";
-	const sort = options.sort || "popular";
 
 	const filtered = themes.filter((theme) => {
 		const matchesQuery =
@@ -232,17 +223,7 @@ export function filterThemes(
 		return matchesQuery && matchesVariant && matchesTag;
 	});
 
-	return filtered.sort((left, right) => {
-		if (sort === "newest") {
-			return right.createdAt.localeCompare(left.createdAt);
-		}
-
-		return (
-			getThemePopularity(right, options.likedSlugs) -
-				getThemePopularity(left, options.likedSlugs) ||
-			right.createdAt.localeCompare(left.createdAt)
-		);
-	});
+	return filtered;
 }
 
 export function getRelatedThemes(theme: ThemeRecord, limit = 3) {

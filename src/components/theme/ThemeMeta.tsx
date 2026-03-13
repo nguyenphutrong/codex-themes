@@ -5,10 +5,9 @@ import type { ThemeRecord } from "#/lib/theme-types";
 
 interface ThemeMetaProps {
 	theme: ThemeRecord;
-	likes: number;
 }
 
-export function ThemeMeta({ theme, likes }: ThemeMetaProps) {
+export function ThemeMeta({ theme }: ThemeMetaProps) {
 	return (
 		<Card>
 			<CardContent className="space-y-4">
@@ -37,10 +36,6 @@ export function ThemeMeta({ theme, likes }: ThemeMetaProps) {
 						<span className="text-right text-[color:var(--text)]">
 							{theme.codexTheme.theme.contrast}
 						</span>
-					</div>
-					<div className="flex items-center justify-between gap-4">
-						<span>Community hearts</span>
-						<span className="text-right text-[color:var(--text)]">{likes}</span>
 					</div>
 				</div>
 			</CardContent>
