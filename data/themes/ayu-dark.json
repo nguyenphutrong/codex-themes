@@ -1,0 +1,34 @@
+{
+  "slug": "ayu-dark",
+  "name": "Ayu Dark",
+  "author": "Ike Ku",
+  "authorUrl": "https://github.com/ayu-theme/vscode-ayu",
+  "description": "A deep dark Ayu variant with warm orange accent and muted foreground for comfortable night coding.",
+  "tags": [
+    "dark",
+    "popular",
+    "warm"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#ffb454",
+      "contrast": 72,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#bfbdb6",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#7fd962",
+        "diffRemoved": "#d95757",
+        "skill": "#73b8ff"
+      },
+      "surface": "#0d1017"
+    },
+    "variant": "dark"
+  }
+}

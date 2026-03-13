@@ -1,0 +1,34 @@
+{
+  "slug": "mellow",
+  "name": "Mellow",
+  "author": "Kvrohit",
+  "authorUrl": "https://github.com/kvrohit/mellow.nvim",
+  "description": "A low-contrast warm dark theme with soothing amber and olive tones for relaxed coding.",
+  "tags": [
+    "dark",
+    "terminal",
+    "warm"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#f5a97f",
+      "contrast": 52,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#c9c7be",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#8fb573",
+        "diffRemoved": "#e68183",
+        "skill": "#a9b1d6"
+      },
+      "surface": "#161617"
+    },
+    "variant": "dark"
+  }
+}

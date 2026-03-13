@@ -1,0 +1,34 @@
+{
+  "slug": "bamboo",
+  "name": "Bamboo",
+  "author": "Rilke Petrosky",
+  "authorUrl": "https://github.com/rilke-petrosky/bamboo.nvim",
+  "description": "A nature-inspired dark theme with warm greens, golden accents, and earthy undertones.",
+  "tags": [
+    "dark",
+    "terminal",
+    "warm"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#8fb573",
+      "contrast": 60,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#c9c7be",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#8fb573",
+        "diffRemoved": "#e68183",
+        "skill": "#d699b6"
+      },
+      "surface": "#1c1c1c"
+    },
+    "variant": "dark"
+  }
+}

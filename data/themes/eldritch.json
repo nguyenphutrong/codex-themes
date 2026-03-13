@@ -1,0 +1,34 @@
+{
+  "slug": "eldritch",
+  "name": "Eldritch",
+  "author": "Eldritch Theme",
+  "authorUrl": "https://github.com/eldritch-theme/eldritch",
+  "description": "A cosmic horror-inspired dark theme with deep purple surfaces and eerie cyan and green highlights.",
+  "tags": [
+    "dark",
+    "terminal",
+    "neon"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#04d1f9",
+      "contrast": 78,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#ebfafa",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#37f499",
+        "diffRemoved": "#f16c75",
+        "skill": "#a48cf2"
+      },
+      "surface": "#212337"
+    },
+    "variant": "dark"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "min-dark",
+  "name": "Min Dark",
+  "author": "Miguel Solorio",
+  "authorUrl": "https://github.com/misolori/min-theme",
+  "description": "An ultra-minimal dark theme that strips away visual noise to keep you focused on code.",
+  "tags": [
+    "dark",
+    "minimal",
+    "modern"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#79b8ff",
+      "contrast": 70,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#e1e4e8",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#85e89d",
+        "diffRemoved": "#f97583",
+        "skill": "#b392f0"
+      },
+      "surface": "#1f2428"
+    },
+    "variant": "dark"
+  }
+}

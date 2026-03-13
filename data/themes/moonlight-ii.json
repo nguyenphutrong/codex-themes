@@ -1,0 +1,34 @@
+{
+  "slug": "moonlight-ii",
+  "name": "Moonlight II",
+  "author": "Atomiks",
+  "authorUrl": "https://github.com/atomiks/moonlight-vscode-theme",
+  "description": "A dreamy deep blue theme with soft purple moonlight tones and pastel syntax colors.",
+  "tags": [
+    "dark",
+    "popular",
+    "soft"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#82aaff",
+      "contrast": 70,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#c8d3f5",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#c3e88d",
+        "diffRemoved": "#ff757f",
+        "skill": "#c099ff"
+      },
+      "surface": "#222436"
+    },
+    "variant": "dark"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "vercel-dark",
+  "name": "Vercel Dark",
+  "author": "Vercel",
+  "authorUrl": "https://vercel.com",
+  "description": "Vercel's sleek and minimal dark theme with clean whites on a true-black canvas.",
+  "tags": [
+    "dark",
+    "modern",
+    "minimal"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#0070f3",
+      "contrast": 80,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#ededed",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#50e3c2",
+        "diffRemoved": "#ee0000",
+        "skill": "#7928ca"
+      },
+      "surface": "#000000"
+    },
+    "variant": "dark"
+  }
+}

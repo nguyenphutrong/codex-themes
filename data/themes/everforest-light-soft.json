@@ -1,0 +1,34 @@
+{
+  "slug": "everforest-light-soft",
+  "name": "Everforest Light Soft",
+  "author": "Sainnhe Park",
+  "authorUrl": "https://github.com/sainnhe/everforest",
+  "description": "A gentle and soft green-tinted light theme from the Everforest family with warm forest tones.",
+  "tags": [
+    "light",
+    "soft",
+    "warm"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#8da101",
+      "contrast": 30,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#5c6a72",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#8da101",
+        "diffRemoved": "#f85552",
+        "skill": "#df69ba"
+      },
+      "surface": "#f3ead3"
+    },
+    "variant": "light"
+  }
+}

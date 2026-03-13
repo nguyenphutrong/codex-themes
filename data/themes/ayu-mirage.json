@@ -1,0 +1,34 @@
+{
+  "slug": "ayu-mirage",
+  "name": "Ayu Mirage",
+  "author": "Ike Ku",
+  "authorUrl": "https://github.com/ayu-theme/vscode-ayu",
+  "description": "The balanced mid-tone Ayu variant with a blue-grey surface and warm gold accent.",
+  "tags": [
+    "dark",
+    "popular",
+    "balanced"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#ffcc66",
+      "contrast": 62,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#cccac2",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#87d96c",
+        "diffRemoved": "#f27983",
+        "skill": "#5ccfe6"
+      },
+      "surface": "#1f2430"
+    },
+    "variant": "dark"
+  }
+}

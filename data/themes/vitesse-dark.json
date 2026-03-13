@@ -1,0 +1,34 @@
+{
+  "slug": "vitesse-dark",
+  "name": "Vitesse Dark",
+  "author": "Anthony Fu",
+  "authorUrl": "https://github.com/antfu/vscode-theme-vitesse",
+  "description": "Anthony Fu's minimal dark theme with warm green accents and carefully balanced contrast.",
+  "tags": [
+    "dark",
+    "minimal",
+    "popular"
+  ],
+  "featured": true,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#4d9375",
+      "contrast": 65,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#dbd7ca",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#4d9375",
+        "diffRemoved": "#cb7676",
+        "skill": "#6394bf"
+      },
+      "surface": "#121212"
+    },
+    "variant": "dark"
+  }
+}

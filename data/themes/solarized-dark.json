@@ -1,0 +1,34 @@
+{
+  "slug": "solarized-dark",
+  "name": "Solarized Dark",
+  "author": "Ethan Schoonover",
+  "authorUrl": "https://ethanschoonover.com/solarized/",
+  "description": "The iconic dark Solarized palette with carefully tuned cyan and amber accents on a deep blue-grey base.",
+  "tags": [
+    "dark",
+    "classic",
+    "popular"
+  ],
+  "featured": true,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#268bd2",
+      "contrast": 55,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#839496",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#859900",
+        "diffRemoved": "#dc322f",
+        "skill": "#6c71c4"
+      },
+      "surface": "#002b36"
+    },
+    "variant": "dark"
+  }
+}

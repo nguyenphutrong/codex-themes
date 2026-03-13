@@ -1,0 +1,34 @@
+{
+  "slug": "sublime-monokai",
+  "name": "Sublime Monokai",
+  "author": "Sublime HQ",
+  "authorUrl": "https://www.sublimetext.com",
+  "description": "The original Monokai palette from Sublime Text with vivid pink, green, and yellow syntax colors.",
+  "tags": [
+    "dark",
+    "classic",
+    "popular"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#a6e22e",
+      "contrast": 78,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#f8f8f2",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#a6e22e",
+        "diffRemoved": "#f92672",
+        "skill": "#66d9ef"
+      },
+      "surface": "#272822"
+    },
+    "variant": "dark"
+  }
+}

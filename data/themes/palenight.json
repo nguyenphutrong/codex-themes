@@ -1,0 +1,34 @@
+{
+  "slug": "palenight",
+  "name": "Palenight",
+  "author": "Mattia Astorino",
+  "authorUrl": "https://github.com/equinusocio/vsc-material-theme",
+  "description": "A muted purple-blue Material palette with soft lavender accents and gentle contrast.",
+  "tags": [
+    "dark",
+    "popular",
+    "soft"
+  ],
+  "featured": true,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#c792ea",
+      "contrast": 68,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#a6accd",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#c3e88d",
+        "diffRemoved": "#f07178",
+        "skill": "#89ddff"
+      },
+      "surface": "#292d3e"
+    },
+    "variant": "dark"
+  }
+}

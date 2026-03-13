@@ -1,0 +1,34 @@
+{
+  "slug": "nightfly",
+  "name": "Nightfly",
+  "author": "Bluz71",
+  "authorUrl": "https://github.com/bluz71/vim-nightfly-colors",
+  "description": "A deep midnight blue Neovim theme with vivid teal, violet, and watermelon syntax highlights.",
+  "tags": [
+    "dark",
+    "terminal",
+    "neon"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#82aaff",
+      "contrast": 76,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#c3ccdc",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#a1cd5e",
+        "diffRemoved": "#fc514e",
+        "skill": "#ae81ff"
+      },
+      "surface": "#011627"
+    },
+    "variant": "dark"
+  }
+}

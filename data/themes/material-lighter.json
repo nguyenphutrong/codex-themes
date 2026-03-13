@@ -1,0 +1,34 @@
+{
+  "slug": "material-lighter",
+  "name": "Material Lighter",
+  "author": "Mattia Astorino",
+  "authorUrl": "https://github.com/equinusocio/vsc-material-theme",
+  "description": "A crisp white Material palette with vibrant teal and orange semantic accents.",
+  "tags": [
+    "light",
+    "popular",
+    "clean"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#00bcd4",
+      "contrast": 40,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#546e7a",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#91b859",
+        "diffRemoved": "#e53935",
+        "skill": "#7c4dff"
+      },
+      "surface": "#fafafa"
+    },
+    "variant": "light"
+  }
+}

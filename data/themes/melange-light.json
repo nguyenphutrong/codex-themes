@@ -1,0 +1,34 @@
+{
+  "slug": "melange-light",
+  "name": "Melange Light",
+  "author": "Savq",
+  "authorUrl": "https://github.com/savq/melange-nvim",
+  "description": "A warm parchment-toned light theme with earthy browns and soft amber highlights.",
+  "tags": [
+    "light",
+    "terminal",
+    "warm"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#9f6155",
+      "contrast": 34,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#54433a",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#4d7f43",
+        "diffRemoved": "#b65c4f",
+        "skill": "#6e6080"
+      },
+      "surface": "#f4f0ed"
+    },
+    "variant": "light"
+  }
+}

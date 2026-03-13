@@ -1,0 +1,34 @@
+{
+  "slug": "min-light",
+  "name": "Min Light",
+  "author": "Miguel Solorio",
+  "authorUrl": "https://github.com/misolori/min-theme",
+  "description": "An ultra-minimal light theme with clean whites and subtle syntax differentiation.",
+  "tags": [
+    "light",
+    "minimal",
+    "modern"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#005cc5",
+      "contrast": 35,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#24292e",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#22863a",
+        "diffRemoved": "#cb2431",
+        "skill": "#6f42c1"
+      },
+      "surface": "#ffffff"
+    },
+    "variant": "light"
+  }
+}

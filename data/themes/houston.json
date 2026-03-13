@@ -1,0 +1,34 @@
+{
+  "slug": "houston",
+  "name": "Houston",
+  "author": "Astro",
+  "authorUrl": "https://github.com/withastro/houston-vscode",
+  "description": "Astro's official dark theme with a space-inspired deep navy base and vibrant orange accents.",
+  "tags": [
+    "dark",
+    "popular",
+    "modern"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#ff7e33",
+      "contrast": 75,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#d6deeb",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#45d483",
+        "diffRemoved": "#ee5d5d",
+        "skill": "#79c0ff"
+      },
+      "surface": "#17191e"
+    },
+    "variant": "dark"
+  }
+}

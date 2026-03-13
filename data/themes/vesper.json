@@ -1,0 +1,34 @@
+{
+  "slug": "vesper",
+  "name": "Vesper",
+  "author": "Raunaq Singh",
+  "authorUrl": "https://github.com/raunofreiberg/vesper",
+  "description": "A warm-toned dark theme with amber highlights and a cozy, low-contrast aesthetic.",
+  "tags": [
+    "dark",
+    "warm",
+    "minimal"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#ffc799",
+      "contrast": 60,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#b7b7b7",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#99ffe4",
+        "diffRemoved": "#ff8080",
+        "skill": "#ffc799"
+      },
+      "surface": "#101010"
+    },
+    "variant": "dark"
+  }
+}

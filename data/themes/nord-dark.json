@@ -1,0 +1,34 @@
+{
+  "slug": "nord-dark",
+  "name": "Nord",
+  "author": "Arctic Ice Studio",
+  "authorUrl": "https://www.nordtheme.com",
+  "description": "The original Nord dark palette with arctic blue tones, clean frost accents, and aurora highlights.",
+  "tags": [
+    "dark",
+    "popular",
+    "cool"
+  ],
+  "featured": true,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#88c0d0",
+      "contrast": 60,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#d8dee9",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#a3be8c",
+        "diffRemoved": "#bf616a",
+        "skill": "#b48ead"
+      },
+      "surface": "#2e3440"
+    },
+    "variant": "dark"
+  }
+}

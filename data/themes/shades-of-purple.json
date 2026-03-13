@@ -1,0 +1,34 @@
+{
+  "slug": "shades-of-purple",
+  "name": "Shades of Purple",
+  "author": "Ahmad Awais",
+  "authorUrl": "https://github.com/ahmadawais/shades-of-purple-vscode",
+  "description": "A bold purple-heavy theme with vivid yellow and green highlights for maximum readability.",
+  "tags": [
+    "dark",
+    "popular",
+    "neon"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#fad000",
+      "contrast": 85,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#a599e9",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#9eff80",
+        "diffRemoved": "#ff628c",
+        "skill": "#ff9d00"
+      },
+      "surface": "#1e1e3f"
+    },
+    "variant": "dark"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "cyberdream",
+  "name": "Cyberdream",
+  "author": "Scott McKendry",
+  "authorUrl": "https://github.com/scottmckendry/cyberdream.nvim",
+  "description": "A modern neon-accented dark theme with electric blue and magenta on a true-black canvas.",
+  "tags": [
+    "dark",
+    "terminal",
+    "neon"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#5ea1ff",
+      "contrast": 82,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#ffffff",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#5eff6c",
+        "diffRemoved": "#ff6e5e",
+        "skill": "#bd5eff"
+      },
+      "surface": "#16181a"
+    },
+    "variant": "dark"
+  }
+}

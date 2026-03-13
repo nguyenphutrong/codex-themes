@@ -1,0 +1,34 @@
+{
+  "slug": "vitesse-light",
+  "name": "Vitesse Light",
+  "author": "Anthony Fu",
+  "authorUrl": "https://github.com/antfu/vscode-theme-vitesse",
+  "description": "A clean and minimal light theme with earthy green tones and excellent readability.",
+  "tags": [
+    "light",
+    "minimal",
+    "popular"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#1e754f",
+      "contrast": 38,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#393a34",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#1e754f",
+        "diffRemoved": "#ab5959",
+        "skill": "#296aa3"
+      },
+      "surface": "#ffffff"
+    },
+    "variant": "light"
+  }
+}

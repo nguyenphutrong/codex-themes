@@ -1,0 +1,34 @@
+{
+  "slug": "neobones-dark",
+  "name": "Neobones Dark",
+  "author": "Mcchrish",
+  "authorUrl": "https://github.com/mcchrish/zenbones.nvim",
+  "description": "A neovim-native dark theme from the Zenbones family with cool grey base and balanced color cues.",
+  "tags": [
+    "dark",
+    "terminal",
+    "minimal"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#6db3ce",
+      "contrast": 58,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#b0bec5",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#8fbf7f",
+        "diffRemoved": "#c75646",
+        "skill": "#ab83a1"
+      },
+      "surface": "#1e2227"
+    },
+    "variant": "dark"
+  }
+}

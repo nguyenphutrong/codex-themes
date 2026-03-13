@@ -1,0 +1,34 @@
+{
+  "slug": "rainglow-rebel",
+  "name": "Rainglow Rebel",
+  "author": "Dayle Rees",
+  "authorUrl": "https://github.com/rainglow/vscode",
+  "description": "A standout theme from the Rainglow collection with deep navy base and vivid pink-red accent.",
+  "tags": [
+    "dark",
+    "neon",
+    "warm"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#d95b71",
+      "contrast": 74,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#d5d5d5",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#7fc06e",
+        "diffRemoved": "#d95b71",
+        "skill": "#6fc3df"
+      },
+      "surface": "#1a1a2e"
+    },
+    "variant": "dark"
+  }
+}

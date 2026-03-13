@@ -1,0 +1,34 @@
+{
+  "slug": "bearded-solarized-dark",
+  "name": "Bearded Solarized Dark",
+  "author": "Bearded Theme",
+  "authorUrl": "https://github.com/BeardedBear/bearded-theme",
+  "description": "A Bearded reinterpretation of Solarized Dark with refined contrast and polished syntax accents.",
+  "tags": [
+    "dark",
+    "classic",
+    "warm"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#b58900",
+      "contrast": 58,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#93a1a1",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#859900",
+        "diffRemoved": "#dc322f",
+        "skill": "#268bd2"
+      },
+      "surface": "#002b36"
+    },
+    "variant": "dark"
+  }
+}

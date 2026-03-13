@@ -1,0 +1,34 @@
+{
+  "slug": "zenbones",
+  "name": "Zenbones",
+  "author": "Mcchrish",
+  "authorUrl": "https://github.com/mcchrish/zenbones.nvim",
+  "description": "A zen-inspired minimal light theme with soft warm tones and intentionally sparse color use.",
+  "tags": [
+    "light",
+    "terminal",
+    "minimal"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#8b6a52",
+      "contrast": 30,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#2c363c",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#6b9e4f",
+        "diffRemoved": "#a8334c",
+        "skill": "#573e55"
+      },
+      "surface": "#f0edec"
+    },
+    "variant": "light"
+  }
+}

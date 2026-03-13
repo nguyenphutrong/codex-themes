@@ -1,0 +1,34 @@
+{
+  "slug": "bearded-oceanic",
+  "name": "Bearded Oceanic",
+  "author": "Bearded Theme",
+  "authorUrl": "https://github.com/BeardedBear/bearded-theme",
+  "description": "An oceanic dark theme from the Bearded collection with deep teal surfaces and bright coral accents.",
+  "tags": [
+    "dark",
+    "cool",
+    "popular"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#35b5b0",
+      "contrast": 68,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#c4cedd",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#57cc99",
+        "diffRemoved": "#ee6c80",
+        "skill": "#9a86fd"
+      },
+      "surface": "#1b2b34"
+    },
+    "variant": "dark"
+  }
+}

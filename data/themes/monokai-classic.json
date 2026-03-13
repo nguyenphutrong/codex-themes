@@ -1,0 +1,34 @@
+{
+  "slug": "monokai-classic",
+  "name": "Monokai Classic",
+  "author": "Wimer Hazenberg",
+  "authorUrl": "https://monokai.pro",
+  "description": "The original Monokai color scheme with its iconic pink, green, and yellow on a dark charcoal base.",
+  "tags": [
+    "dark",
+    "classic",
+    "popular"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#ffd866",
+      "contrast": 76,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#fcfcfa",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#a9dc76",
+        "diffRemoved": "#ff6188",
+        "skill": "#78dce8"
+      },
+      "surface": "#2d2a2e"
+    },
+    "variant": "dark"
+  }
+}

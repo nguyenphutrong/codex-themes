@@ -1,0 +1,34 @@
+{
+  "slug": "oxocarbon-light",
+  "name": "Oxocarbon Light",
+  "author": "IBM Carbon",
+  "authorUrl": "https://github.com/nyoom-engineering/oxocarbon.nvim",
+  "description": "A clean IBM Carbon-inspired light theme with pink and purple touches on a bright white base.",
+  "tags": [
+    "light",
+    "terminal",
+    "modern"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#be95ff",
+      "contrast": 36,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#393939",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#42be65",
+        "diffRemoved": "#ee5396",
+        "skill": "#be95ff"
+      },
+      "surface": "#ffffff"
+    },
+    "variant": "light"
+  }
+}

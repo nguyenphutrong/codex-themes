@@ -1,0 +1,34 @@
+{
+  "slug": "noctis",
+  "name": "Noctis",
+  "author": "Liviu Schera",
+  "authorUrl": "https://github.com/liviuschera/noctis",
+  "description": "A carefully crafted dark theme with warm earthy undertones and excellent color differentiation.",
+  "tags": [
+    "dark",
+    "warm",
+    "popular"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#e4b781",
+      "contrast": 66,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#c5cdd3",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#49e9a6",
+        "diffRemoved": "#e66533",
+        "skill": "#16b673"
+      },
+      "surface": "#1b2932"
+    },
+    "variant": "dark"
+  }
+}

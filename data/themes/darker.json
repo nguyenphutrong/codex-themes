@@ -1,0 +1,34 @@
+{
+  "slug": "darker",
+  "name": "Darker",
+  "author": "Darker Theme",
+  "authorUrl": "https://github.com/nickcernis/vscode-darker",
+  "description": "An ultra-dark minimal theme with pure black background and subtle grey-blue syntax highlights.",
+  "tags": [
+    "dark",
+    "minimal",
+    "monochrome"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#569cd6",
+      "contrast": 85,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#cccccc",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#4ec9b0",
+        "diffRemoved": "#f44747",
+        "skill": "#c586c0"
+      },
+      "surface": "#000000"
+    },
+    "variant": "dark"
+  }
+}

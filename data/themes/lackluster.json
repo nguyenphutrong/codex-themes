@@ -1,0 +1,34 @@
+{
+  "slug": "lackluster",
+  "name": "Lackluster",
+  "author": "Slugbyte",
+  "authorUrl": "https://github.com/slugbyte/lackluster.nvim",
+  "description": "An intentionally desaturated dark theme with monochrome greys and minimal color noise.",
+  "tags": [
+    "dark",
+    "terminal",
+    "minimal"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#708090",
+      "contrast": 48,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#aaaaaa",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#789978",
+        "diffRemoved": "#997878",
+        "skill": "#787899"
+      },
+      "surface": "#1a1a1a"
+    },
+    "variant": "dark"
+  }
+}

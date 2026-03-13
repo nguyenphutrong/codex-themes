@@ -1,0 +1,34 @@
+{
+  "slug": "pen-paper-coffee",
+  "name": "Pen Paper Coffee",
+  "author": "Colornamer",
+  "authorUrl": "https://github.com/colornamer/pen-paper-coffee",
+  "description": "A warm paper-like sepia light theme that mimics the feel of handwritten notes with a cup of coffee.",
+  "tags": [
+    "light",
+    "warm",
+    "editorial"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#795e26",
+      "contrast": 32,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#4d3a2a",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#4e7a36",
+        "diffRemoved": "#a83232",
+        "skill": "#6e4b7a"
+      },
+      "surface": "#f5f0e8"
+    },
+    "variant": "light"
+  }
+}

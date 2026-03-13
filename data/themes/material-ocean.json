@@ -1,0 +1,34 @@
+{
+  "slug": "material-ocean",
+  "name": "Material Ocean",
+  "author": "Mattia Astorino",
+  "authorUrl": "https://github.com/equinusocio/vsc-material-theme",
+  "description": "Deep oceanic blues from the Material Theme family with vivid teal and coral highlights.",
+  "tags": [
+    "dark",
+    "popular",
+    "cool"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#84ffff",
+      "contrast": 70,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#8f93a2",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#c3e88d",
+        "diffRemoved": "#f07178",
+        "skill": "#89ddff"
+      },
+      "surface": "#0f111a"
+    },
+    "variant": "dark"
+  }
+}

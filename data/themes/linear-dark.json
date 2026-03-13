@@ -1,0 +1,34 @@
+{
+  "slug": "linear-dark",
+  "name": "Linear Dark",
+  "author": "Linear",
+  "authorUrl": "https://linear.app",
+  "description": "Inspired by Linear's product UI—an ultra-clean dark theme with blue-violet accents.",
+  "tags": [
+    "dark",
+    "modern",
+    "minimal"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#5e6ad2",
+      "contrast": 72,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#d2d3e0",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#4cb782",
+        "diffRemoved": "#e5484d",
+        "skill": "#8e5ce6"
+      },
+      "surface": "#1b1b25"
+    },
+    "variant": "dark"
+  }
+}

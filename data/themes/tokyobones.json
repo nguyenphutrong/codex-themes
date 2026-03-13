@@ -1,0 +1,34 @@
+{
+  "slug": "tokyobones",
+  "name": "Tokyobones",
+  "author": "Mcchrish",
+  "authorUrl": "https://github.com/mcchrish/zenbones.nvim",
+  "description": "A Tokyo Night-inspired variant from the Zenbones family with refined blue tones and minimal distractions.",
+  "tags": [
+    "dark",
+    "terminal",
+    "minimal"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#7aa2f7",
+      "contrast": 64,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#c0caf5",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#9ece6a",
+        "diffRemoved": "#f7768e",
+        "skill": "#bb9af7"
+      },
+      "surface": "#1a1b26"
+    },
+    "variant": "dark"
+  }
+}

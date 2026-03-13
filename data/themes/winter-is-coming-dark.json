@@ -1,0 +1,34 @@
+{
+  "slug": "winter-is-coming-dark",
+  "name": "Winter Is Coming Dark",
+  "author": "John Papa",
+  "authorUrl": "https://github.com/johnpapa/vscode-winteriscoming",
+  "description": "A deep blue dark theme inspired by winter nights with bright cyan and yellow accents.",
+  "tags": [
+    "dark",
+    "popular",
+    "cool"
+  ],
+  "featured": false,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#4ec9b0",
+      "contrast": 82,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#d4d4d4",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#4ec9b0",
+        "diffRemoved": "#ef5350",
+        "skill": "#87cefa"
+      },
+      "surface": "#011627"
+    },
+    "variant": "dark"
+  }
+}

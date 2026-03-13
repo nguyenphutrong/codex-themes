@@ -1,0 +1,34 @@
+{
+  "slug": "synthwave-84",
+  "name": "SynthWave '84",
+  "author": "Robb Owen",
+  "authorUrl": "https://github.com/robb0wen/synthwave-vscode",
+  "description": "A retro-futuristic neon theme inspired by 1984 synthwave aesthetics with hot pink and electric cyan.",
+  "tags": [
+    "dark",
+    "neon",
+    "retro"
+  ],
+  "featured": true,
+  "createdAt": "2026-03-13",
+  "codexTheme": {
+    "codeThemeId": "codex",
+    "theme": {
+      "accent": "#ff7edb",
+      "contrast": 80,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "ink": "#b6b1b1",
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#72f1b8",
+        "diffRemoved": "#fe4450",
+        "skill": "#36f9f6"
+      },
+      "surface": "#262335"
+    },
+    "variant": "dark"
+  }
+}
